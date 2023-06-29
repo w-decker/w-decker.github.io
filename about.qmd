@@ -1,6 +1,8 @@
 ---
 title: "About Me"
-format: html
+format:
+  html:
+    page-layout: full
 ---
 
 Hi! I'm Will Decker and I am a current undergraduate honors student at Louisiana State University in Baton Rouge, LA, USA.

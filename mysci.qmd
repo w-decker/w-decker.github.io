@@ -1,6 +1,8 @@
 ---
 title: "My Open Science"
-format: html
+format:
+  html:
+    page-layout: full
 ---
 
 It is important to practice what you preach! (See [Open Science](https://w-decker.github.io/opensci.html)) In this section, I provide open access to my current and completed research. The following resources provide an in-depth accounts of a project-much more than a manuscript might include. If you have any questions about materials, please do not hesitate to reach out. A section for direct access to presentations and (forthcoming) papers will be created within the coming weeks.

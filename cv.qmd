@@ -1,6 +1,8 @@
 ---
 title: "CV"
-format: html
+format:
+  html:
+    page-layout: full
 ---
 
 Below is a link to my Curriculum Vitae.
