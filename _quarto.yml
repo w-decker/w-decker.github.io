@@ -4,6 +4,8 @@ project:
   
 website:
   title: "Will Decker"
+  page-footer: 
+    center: "![logo](images/wdbrain.png){ width=100 height=100 class=logo }"
   sidebar:
     style: "docked"
     background-color: "#DCDCDC"

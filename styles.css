@@ -8,3 +8,8 @@
     text-align: center !important;
     fig-align: center !important;
 }
+
+.logo {
+  position: absolute;
+  left: 59px; /* Adjust the left position as needed */
+}
