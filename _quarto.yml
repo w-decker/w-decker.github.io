@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Will Decker"
+  sidebar:
+    style: "docked"
+    background-color: "#DCDCDC"
+    search: false
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "About me"
+        file: about.qmd
+      - text: "CV"
+        file: cv.qmd
+      - text: "Open Science"
+        file: opensci.qmd
+      - text: "My Open Science"
+        file: mysci.qmd
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

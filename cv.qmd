@@ -1,0 +1,12 @@
+---
+title: "CV"
+format: html
+---
+
+Below is a link to my Curriculum Vitae.
+
+| Filename                  | Last update    |
+|---------------------------|----------------|
+| [CV](files/Decker_CV.pdf) | June 9th, 2023 |
+
+---

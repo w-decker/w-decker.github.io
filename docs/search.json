@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hi! I’m Will Decker and Welcome to my website. Check out the pages to learn more about me and my science.If you are a first time visitor, please check out the “About me” section to learn more about my current status, research interests and personal life. If you are looking for some of my projects, please check out “My Open Science” where you will find direct access to my science.\nIf you would like to contact me, please email jdecker5(at)lsu(dot)edu or deckerwill7(at)gmail(dot)com.\nI have a twitter too!"
+  },
+  {
+    "objectID": "opensci.html",
+    "href": "opensci.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "Open science is integral to creating good science. Adherence to such practices supports the transparent dissemination of information which concurrently increases the trust in the scientific community and allows research to be replicated and validated. Thusly, I have included some resources that I’ve found seminal in my personal development and understanding of what it means to conduct open science as well as the sites that I use to share the research that I am a part of and conduct.\nOpen science is a multi-tiered practice that consists of multiple concepts like reproducibility, accessibility, transparency, diversity and analytical rigor. It cannot simply be described in one paragraph and to understand it requires much more than the resources I’ve provided. I am still learning and will be continuing to learn about open science."
+  },
+  {
+    "objectID": "opensci.html#resources",
+    "href": "opensci.html#resources",
+    "title": "Open Science",
+    "section": "Resources",
+    "text": "Resources\nThe resources listed below are some of the many that have influenced my drive for open science and aided in my ability to conduct open science. If you have other sources of knowledge regarding open science and its implementation, please reach out!\n\nPsychology needs to get tired of winning. (Haeffel 2022).\nEEG is better left alone (Delorme 2023)\nScience has a nasty photoshopping problem (Bik 2022)\nBrain Imaging Data Structure (BIDS)\nCenter for Open Science"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Most notably, my interests and passions fall within the fields of cognitive neuroscience, and neuroimaging. I am particularly interested in 1) learning, 2) language and 3) semantic knowledge. More specifically I am interested in statistical learning (SL), the computations involved (i.e., transitional probabilities and chunking), the neural mechanisms supporting SL and how SL relates to, interacts with and recruits other cognitive mechanisms. I am also interested in how the human language network parallels that of a machine, how we generate and use language to learn and understand the world around us and how the learning of our environment shapes our language and understanding of concepts. Of particular intrigue is how the neurocognitive and neurobiological mechanisms of language and learning change over our developmental trajectory.\nI am also severely interested in neuroimaging techniques (MRI, EEG, MEG, etc.), their respective analyses, improvements to analyses and how we can use such techniques to study cognition. I am intrigued by how the brain can be broken down computationally and how this understanding influences our characterization of cognitive processes. Additionally, I am generally interested in and passionate about the structure-function relationship, open science, coding and statistics.\nOn top of being a student, I am a Project Coordinator in the Language, Environment and NeuroDevelopment (LEND) Lab under the mentorship of Julie M. Schneider, PhD where I have learned lots about EEG and the signal processing operations behind it and lead a team of other undergraduates in learning and conducting EEG experiments. I am also an honors thesis student in the Representations and Learning (ReLearn) Lab under the mentorship of Christopher Cox, PhD where I have delved deep into MRI, SL and much more.\nAdditionally, I am a big foodie and will eat practically anything. (Except raisins. Who wants a dried, shriveled grape when you can have a nice, juicy, good tasting one? They smell weird too.) I do enjoy my fair share of television; my favorite show–without a doubt–is The Simpsons. I also enjoy walking around outside when the weather is nice and listening to my favorite song, “The Night Chicago Died” by Paper Lace. I have also been playing the violin for 10+ years.\nAt the moment, I am working towards entering a collaborative and open-science driven graduate program in Cognitive Psychology and/or Cognitive Neuroscience with opportunities to enhance my knowledge of language, neuroimaging, statistics and data science as well as receive detailed training in being a scientist of the brain."
+  },
+  {
+    "objectID": "mysci.html",
+    "href": "mysci.html",
+    "title": "My Open Science",
+    "section": "",
+    "text": "ORCID\n\nORCID or Open Researcher and Contributor ID is an important tool used to access and track researchers across publications and disciplines. Check out more information about ORCID here.\n\n\n    GitHub\n\nGitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. Click on the icon below to access my GitHub.\n\n\n    OSF\n\nThe Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with “Projects” being the main file, while subcomponents, like “Analysis” or “Code” being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon below to access my OSF."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Filename\nLast update\n\n\n\n\nCV\nJune 9th, 2023"
+  }
+]

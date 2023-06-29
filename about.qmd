@@ -1,0 +1,18 @@
+---
+title: "About Me"
+format: html
+---
+
+Hi! I'm Will Decker and I am a current undergraduate honors student at Louisiana State University in Baton Rouge, LA, USA.
+
+Most notably, my interests and passions fall within the fields of cognitive neuroscience, and neuroimaging. I am particularly interested in 1) learning, 2) language and 3) semantic knowledge. More specifically I am interested in statistical learning (SL), the computations involved (i.e., transitional probabilities and chunking), the neural mechanisms supporting SL and how SL relates to, interacts with and recruits other cognitive mechanisms. I am also interested in how the human language network parallels that of a machine, how we generate and use language to learn and understand the world around us and how the learning of our environment shapes our language and understanding of concepts. Of particular intrigue is how the neurocognitive and neurobiological mechanisms of language and learning change over our developmental trajectory.
+
+I am also severely interested in neuroimaging techniques (MRI, EEG, MEG, etc.), their respective analyses, improvements to analyses and how we can use such techniques to study cognition. I am intrigued by how the brain can be broken down computationally and how this understanding influences our characterization of cognitive processes. Additionally, I am generally interested in and passionate about the structure-function relationship, open science, coding and statistics.
+
+On top of being a student, I am a Project Coordinator in the [Language, Environment and NeuroDevelopment (LEND) Lab](https://juschnei.wixsite.com/lendlab) under the mentorship of [Julie M. Schneider, PhD](https://www.lsu.edu/hss/comd/faculty/schneider.php) where I have learned lots about EEG and the signal processing operations behind it and lead a team of other undergraduates in learning and conducting EEG experiments. I am also an honors thesis student in the [Representations and Learning (ReLearn) Lab](https://faculty.lsu.edu/chriscox/index.php) under the mentorship of [Christopher Cox, PhD](https://www.lsu.edu/hss/psychology/faculty/cognitive/cox.php) where I have delved deep into MRI, SL and much more.
+
+Additionally, I am a big foodie and will eat practically anything. (Except raisins. Who wants a dried, shriveled grape when you can have a nice, juicy, good tasting one? They smell weird too.) I do enjoy my fair share of television; my favorite show--without a doubt--is The Simpsons. I also enjoy walking around outside when the weather is nice and listening to my favorite song, "The Night Chicago Died" by Paper Lace. I have also been playing the violin for 10+ years.
+
+At the moment, I am working towards entering a collaborative and open-science driven graduate program in Cognitive Psychology and/or Cognitive Neuroscience with opportunities to enhance my knowledge of language, neuroimaging, statistics and data science as well as receive detailed training in being a scientist of the brain.
+
+---
