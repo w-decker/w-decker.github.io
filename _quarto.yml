@@ -6,6 +6,7 @@ website:
   title: "Will Decker"
   page-footer: 
     center: "![logo](images/wdbrain.png){ width=100 height=100 class=logo }"
+    left: "©️ Will Decker under the [GNU General Public License v3.0](LICENSE)"
   sidebar:
     style: "docked"
     background-color: "#DCDCDC"
