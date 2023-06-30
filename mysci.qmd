@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-It is important to practice what you preach! (See [Open Science](https://w-decker.github.io/opensci.html)) In this section, I provide open access to my current and completed research. The following resources provide an in-depth accounts of a project-much more than a manuscript might include. If you have any questions about materials, please do not hesitate to reach out. A section for direct access to presentations and (forthcoming) papers will be created within the coming weeks.
+It is important to practice what you preach! (See [**Open Science**](https://w-decker.github.io/opensci.html)). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to. A section with access to (forthcoming!!!) publications will be created within the coming months.
 
 ---
 
@@ -29,7 +29,7 @@ ORCID or **O**pen **R**esearcher and **C**ontributor **ID** is an important tool
   <span style="font-size: 18px; font-family: Arial, sans-serif; color: #333; font-weight: bold; text-decoration: underline;">GitHub</span>
 </center>
 
-GitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. Click on the icon below to access my GitHub.
+GitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. GitHub is also where I house copies of my first-author presentations in a repository titled [Presentations](https://github.com/w-decker/Presentations). Click on the icon above to access my GitHub.
 
 ---
 
@@ -42,6 +42,6 @@ GitHub is an incredibly powerful tool for researchers, scientists and more acros
   <span style="font-size: 18px; font-family: Arial, sans-serif; color: #333; font-weight: bold; text-decoration: underline;">OSF</span>
 </center>
 
-The Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with "Projects" being the main file, while subcomponents, like "Analysis" or "Code" being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon below to access my OSF.
+The Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with "Projects" being the main file, while subcomponents, like "Analysis" or "Code" being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon above to access my OSF.
 
 ---
