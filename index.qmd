@@ -1,4 +1,5 @@
 ---
+title: "Will Decker"
 format:
   html:
     page-layout: full
@@ -12,9 +13,10 @@ Hi! I'm Will Decker and welcome to my website. Check out the pages to learn more
 
 If you would like to contact me, please email jdecke5(at)lsu(dot)edu **or** deckerwill7(at)gmail(dot)com.
 
-I have a [twitter](https://twitter.com/jwilldecker) too!   
-<a >
+<span class="twitter-statement">
+    I have a <a href="https://twitter.com/jwilldecker">twitter</a> too!
     <img src="images/twitter.png" alt="twitter-logo" width="25" height="20" class="twitter-logo"/>
-</a>
+</span>
+
 
 ---
