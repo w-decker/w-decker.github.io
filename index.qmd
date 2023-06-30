@@ -1,5 +1,5 @@
 ---
-title: "Will Decker"
+title: "Will Decker <img src='/images/wdbrain.png' alt='Logo' style='width: 100px;' />"
 format:
   html:
     page-layout: full
