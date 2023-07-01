@@ -5,8 +5,7 @@ format:
     page-layout: full
 ---
 
-It is important to practice what you preach! (See [**Open Science**](https://w-decker.github.io/opensci.html)). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to. A section with access to (forthcoming!!!) publications will be created within the coming months.
-
+It is important to practice what you preach! (See [**Open Science**](https://w-decker.github.io/opensci.html)). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to.
 ---
 
 <center>
