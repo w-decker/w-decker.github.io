@@ -25,8 +25,6 @@ website:
         file: mysci.qmd
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    theme: darkly
     css: styles.css
     toc: true
