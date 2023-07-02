@@ -6,12 +6,12 @@ website:
   favicon: "/images/wdbrain.png"
   title: "Will Decker"
   page-footer: 
-    left: "2023 ©️ Will Decker under [GNU General Public License v3.0](LICENSE)"
+    left: "2023 ©️ Will Decker - [GNU General Public License v3.0](LICENSE)"
   sidebar:
     logo: "/images/wdbrain.png"
     style: "docked"
     background-color: "#DCDCDC"
-    search: false
+    search: true
     contents:
       - text: "Home"
         file: index.qmd
@@ -23,7 +23,13 @@ website:
         file: opensci.qmd
       - text: "My Open Science"
         file: mysci.qmd
-format:
+      - section: "Projects"
+        contents: 
+          - currentprojects.qmd
+          - archive.qmd
+
+            
+format: 
   html:
     theme: darkly
     css: styles.css

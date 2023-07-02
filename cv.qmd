@@ -6,7 +6,7 @@ format:
     theme: dark
 ---
 
-Below is a link to my Curriculum Vitae.
+## Curriculum Vitae
 
 | Filename                  | Last update    |
 |---------------------------|----------------|

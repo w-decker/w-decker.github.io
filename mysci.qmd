@@ -5,16 +5,16 @@ format:
     page-layout: full
 ---
 
-It is important to practice what you preach! (See [**Open Science**](https://w-decker.github.io/opensci.html)). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to.
+It is important to practice what you preach! (See [**Open Science**](https://w-decker.github.io/opensci.html)). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to. Please check out [**Projects**](https://w-decker.github.io/currentprojects.html) for brief descriptions of some of what I am working on at the moment.
 ---
 
 <center>
   <a href="https://orcid.org/0009-0003-9353-7746">
     <img src="images/orcid.png" alt="ORCID" width="100" height="100" class="orcid"/>
   </a>
-  <br>
-  <span style="font-size: 18px; font-family: Arial, sans-serif; color: #333; font-weight: bold; text-decoration: underline;">ORCID</span>
 </center>
+
+## ORCID
 
 ORCID or **O**pen **R**esearcher and **C**ontributor **ID** is an important tool used to access and track researchers across publications and disciplines. Check out more information about ORCID [here](https://info.orcid.org/what-is-orcid/).
 
@@ -24,9 +24,9 @@ ORCID or **O**pen **R**esearcher and **C**ontributor **ID** is an important tool
   <a href="https://github.com/w-decker">
     <img src="images/github.png" alt="GitHub" width="100" height="100" class="GitHub"/>
   </a>
-  <br>
-  <span style="font-size: 18px; font-family: Arial, sans-serif; color: #333; font-weight: bold; text-decoration: underline;">GitHub</span>
 </center>
+
+## GitHub
 
 GitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. GitHub is also where I house copies of my first-author presentations in a repository titled [Presentations](https://github.com/w-decker/Presentations). Click on the icon above to access my GitHub.
 
@@ -37,9 +37,9 @@ GitHub is an incredibly powerful tool for researchers, scientists and more acros
     <img src="images/osf.png" alt="OSF" width="280
     " height="100" class="OSF"/>
   </a>
-  <br>
-  <span style="font-size: 18px; font-family: Arial, sans-serif; color: #333; font-weight: bold; text-decoration: underline;">OSF</span>
 </center>
+
+## OSF
 
 The Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with "Projects" being the main file, while subcomponents, like "Analysis" or "Code" being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon above to access my OSF.
 

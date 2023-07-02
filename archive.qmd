@@ -1,0 +1,21 @@
+---
+title: "Archive"
+format:
+  html:
+    page-layout: full
+    theme: dark
+---
+
+Here you will find past projects that have been completed. Of course, there are a multitude of other projects which I have been a part of; however, the following descriptions are from projects which have been developed and directed by me and I felt added to the characterization of my science and research interests.
+
+## Quality of Neural Data Between Two EEG Capping Approaches
+
+Given EEG's relatively low cost, there eixists a variety of capping approaches scientists may use to conduct research. However, there are fundamental differences between brands, electrodes, amplifiers that effect data and data collection. In this project, I evaluated the qulitative and quantitive differences between BrainVision's EasyCap and R-Net--two caps that differ in there implementation and data collection. For example, the R-Net uses passive electrodes whereas the EasyCap uses active electrodes. (The distinction between "active" and "passive" electrodes is the place of amplification of the signal). We found significant differences in the data processing operations used during preprocessing and identified qualititative differences across caps as well. This resultant poster from this project can be found [here](https://github.com/w-decker/Presentations/blob/main/LSU_Discover_Day_2022.pdf).
+
+---
+
+## Project Tracker
+
+| Date of Update | Project |
+| ---- | ------- |
+| 07/02/2023 | Quality of Neural Data Between Two EEG Capping Approaches |

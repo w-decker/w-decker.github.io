@@ -32,7 +32,7 @@
     "href": "mysci.html",
     "title": "My Open Science",
     "section": "",
-    "text": "ORCID\n\nORCID or Open Researcher and Contributor ID is an important tool used to access and track researchers across publications and disciplines. Check out more information about ORCID here.\n\n\n    GitHub\n\nGitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. GitHub is also where I house copies of my first-author presentations in a repository titled Presentations. Click on the icon above to access my GitHub.\n\n\n    OSF\n\nThe Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with “Projects” being the main file, while subcomponents, like “Analysis” or “Code” being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon above to access my OSF."
+    "text": "It is important to practice what you preach! (See Open Science). In this section, I provide open access to sites which house my current/in-progress and completed research. The following resources provide an in-depth account of a project-much more than a manuscript or presentation might be able to. Please check out Projects for brief descriptions of some of what I am working on at the moment."
   },
   {
     "objectID": "cv.html",
@@ -40,5 +40,75 @@
     "title": "CV",
     "section": "",
     "text": "Filename\nLast update\n\n\n\n\nCV\nJune 9th, 2023"
+  },
+  {
+    "objectID": "mysci.html#orcid",
+    "href": "mysci.html#orcid",
+    "title": "My Open Science",
+    "section": "ORCID",
+    "text": "ORCID\nORCID or Open Researcher and Contributor ID is an important tool used to access and track researchers across publications and disciplines. Check out more information about ORCID here."
+  },
+  {
+    "objectID": "mysci.html#github",
+    "href": "mysci.html#github",
+    "title": "My Open Science",
+    "section": "GitHub",
+    "text": "GitHub\nGitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. GitHub is also where I house copies of my first-author presentations in a repository titled Presentations. Click on the icon above to access my GitHub."
+  },
+  {
+    "objectID": "mysci.html#osf",
+    "href": "mysci.html#osf",
+    "title": "My Open Science",
+    "section": "OSF",
+    "text": "OSF\nThe Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with “Projects” being the main file, while subcomponents, like “Analysis” or “Code” being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon above to access my OSF."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Here you will find past projects that have been completed. Of course, there are a multitude of other projects which I have been a part of; however, the following descriptions are from projects which have been developed and directed by me and I felt added to the characterization of my science and research interests."
+  },
+  {
+    "objectID": "archive.html#quality-of-neural-data-between-two-eeg-capping-approaches",
+    "href": "archive.html#quality-of-neural-data-between-two-eeg-capping-approaches",
+    "title": "Archive",
+    "section": "Quality of Neural Data Between Two EEG Capping Approaches",
+    "text": "Quality of Neural Data Between Two EEG Capping Approaches\nGiven EEG’s relatively low cost, there eixists a variety of capping approaches scientists may use to conduct research. However, there are fundamental differences between brands, electrodes, amplifiers that effect data and data collection. In this project, I evaluated the qulitative and quantitive differences between BrainVision’s EasyCap and R-Net–two caps that differ in there implementation and data collection. For example, the R-Net uses passive electrodes whereas the EasyCap uses active electrodes. (The distinction between “active” and “passive” electrodes is the place of amplification of the signal). We found significant differences in the data processing operations used during preprocessing and identified qualititative differences across caps as well. This resultant poster from this project can be found here."
+  },
+  {
+    "objectID": "archive.html#project-tracker",
+    "href": "archive.html#project-tracker",
+    "title": "Archive",
+    "section": "Project Tracker",
+    "text": "Project Tracker\n\n\n\n\n\n\n\nDate of Update\nProject\n\n\n\n\n07/02/2023\nQuality of Neural Data Between Two EEG Capping Approaches"
+  },
+  {
+    "objectID": "currentprojects.html",
+    "href": "currentprojects.html",
+    "title": "Current Projects",
+    "section": "",
+    "text": "Below are brief synopses of current projects that I am working on. Of course, there are a multitude of other projects at various stages which I am a part of; however, the following descriptions are from projects which are developed and directed by me and I felt added to the characterization of my science and research interests."
+  },
+  {
+    "objectID": "currentprojects.html#the-architecture-of-auditory-statistical-learning",
+    "href": "currentprojects.html#the-architecture-of-auditory-statistical-learning",
+    "title": "Current Projects",
+    "section": "The Architecture of Auditory Statistical Learning",
+    "text": "The Architecture of Auditory Statistical Learning\nStatistical learning (SL) is the neurocognitive mechanism that the brain employs to identify, parse and extract meaning from continuous input via statistical computations such as transitional probabilites (TPs) and/or chunking. SL can be observed across a variety of cognitive domains and is particularly relevant in the language domain. It has been shown that langauge acquisition occurs through SL. However, previous neuroimaging studies characterize the learning of meaning via auditory SL as static when, rather, learning occurs across the temporal domain, employing various neural regions across space. The focus of this current project is to idetify the changes in functional “states” during SL to uncover how changes in learning are supported at the neural level. To do this, we can use fMRI and a sliding window correlation analysis (detailed by Vergara et al. (2019)). The code for this is currently being developed and can be found here on my GitHub. As of yet, the project is still being constructed.\nKeywords: fMRI, statistical learning, langauge, dynamic functional connectivity"
+  },
+  {
+    "objectID": "currentprojects.html#optimized-pipeline-for-developmental-erps",
+    "href": "currentprojects.html#optimized-pipeline-for-developmental-erps",
+    "title": "Current Projects",
+    "section": "Optimized Pipeline for Developmental ERPs",
+    "text": "Optimized Pipeline for Developmental ERPs\nI was recently awarded an LSU Discover Project Grant for the Summer 2023 semester to develop a pipeline for developmental EEG/ERP data. This project involves examining data quality metrics for developmental EEG/ERP data and identifying optimized preprocessing operations from such data with the ultimate end goal of producing an open-access, easily executable pipeline for researchers. If you are interested in the in-progress pipeline, check out the GitHub repo here where a detailed wiki has been constructed of everything completed thus far. If you are interested in the analysis being used, check out that GitHub repo here.\nIn recent years, a call for standardization of EEG preprocessing methods has been amplified and studies aimed at identifying the best preprocessing criterion determined that there exists some limited range of parameters one can process EEG data through before compromising data quality, statistical significance and reproducibility. However, this research primarily consisted of adult EEG data. Given the exogenous and endogenous impacts of developmental populations on EEG data, a distinct evaluation of the best preprocessing methods for developmental data must be made. This is—in short—the foundation of the project.\nKeywords: EEG, ERP, quality metrics, developmental"
+  },
+  {
+    "objectID": "currentprojects.html#project-tracker",
+    "href": "currentprojects.html#project-tracker",
+    "title": "Current Projects",
+    "section": "Project Tracker",
+    "text": "Project Tracker\n\n\n\nDate of Update\nProject\nNew or Moved to Archive?\n\n\n\n\n07/02/2023\nThe Architecture of Auditory Statistical Learning\nNew\n\n\n07/02/2023\nOptimized Pipeline for Developmental ERPs\nNew"
   }
 ]
