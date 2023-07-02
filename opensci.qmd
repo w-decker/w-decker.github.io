@@ -3,6 +3,7 @@ title: "Open Science"
 format:
   html:
     page-layout: full
+    theme: dark
 ---
 
 Open science is integral to creating good science. Adherence to such practices supports the transparent dissemination of information which concurrently increases the trust in the scientific community and allows research to be replicated and validated. Thusly, I have included some resources that I've found seminal in my personal development and understanding of what it means to conduct open science as well as the sites that I use to share the research that I am a part of and conduct.
