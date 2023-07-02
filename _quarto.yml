@@ -3,11 +3,12 @@ project:
   output-dir: docs
   
 website:
+  favicon: "/images/wdbrain.png"
   title: "Will Decker"
   page-footer: 
-    center: "![logo](images/wdbrain.png){ width=100 height=100 class=logo }"
-    left: "©️ Will Decker under the [GNU General Public License v3.0](LICENSE)"
+    left: "2023 ©️ Will Decker under [GNU General Public License v3.0](LICENSE)"
   sidebar:
+    logo: "/images/wdbrain.png"
     style: "docked"
     background-color: "#DCDCDC"
     search: false
@@ -24,6 +25,8 @@ website:
         file: mysci.qmd
 format:
   html:
-    theme: flatly
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
