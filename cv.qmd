@@ -3,6 +3,7 @@ title: "CV"
 format:
   html:
     page-layout: full
+    theme: dark
 ---
 
 Below is a link to my Curriculum Vitae.

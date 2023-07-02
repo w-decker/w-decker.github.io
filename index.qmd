@@ -3,6 +3,7 @@ title: "Home"
 format:
   html:
     page-layout: full
+    theme: dark
 ---
 
 <center><a><img src="images/Headshot2.jpeg" alt="Decker headshot" width="200" class="headshot"/></a></center>
