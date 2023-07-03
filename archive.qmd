@@ -6,7 +6,7 @@ format:
     theme: dark
 ---
 
-Here you will find past projects that have been completed. Of course, there are a multitude of other projects which I have been a part of; however, the following descriptions are from projects which have been developed and directed by me and I felt added to the characterization of my science and research interests.
+Here you will find past projects that have been completed. There are a multitude of other projects which have since been completed; however, the following descriptions are from projects which have been developed and directed by me and I felt added to the characterization of my science and research interests.
 
 ## Quality of Neural Data Between Two EEG Capping Approaches
 

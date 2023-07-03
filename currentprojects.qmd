@@ -6,7 +6,7 @@ format:
     theme: dark
 ---
 
-Below are brief synopses of current projects that I am working on. Of course, there are a multitude of other projects at various stages which I am a part of; however, the following descriptions are from projects which are developed and directed by me and I felt added to the characterization of my science and research interests.
+Below are brief synopses of current projects that I am working on. There are a multitude of other projects at various stages; however, the following descriptions are from projects which are developed and directed by me and I felt added to the characterization of my science and research interests.
 
 ---
 
