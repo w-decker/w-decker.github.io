@@ -67,7 +67,7 @@
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Here you will find past projects that have been completed. There are a multitude of other projects which have since been completed; however, the following descriptions are from projects which have been developed and directed by me and I felt added to the characterization of my science and research interests."
+    "text": "Here you will find past projects that have been completed. There are other projects which have since been completed; however, the following descriptions are from projects that I felt significantly added to the characterization of my science and research interests."
   },
   {
     "objectID": "archive.html#quality-of-neural-data-between-two-eeg-capping-approaches",
@@ -81,14 +81,14 @@
     "href": "archive.html#project-tracker",
     "title": "Archive",
     "section": "Project Tracker",
-    "text": "Project Tracker\n\n\n\n\n\n\n\nDate of Update\nProject\n\n\n\n\n07/02/2023\nQuality of Neural Data Between Two EEG Capping Approaches"
+    "text": "Project Tracker\n\n\n\n\n\n\n\nDate of Update\nProject\n\n\n\n\n07/02/2023\nA Look at Rhyme’s Role in Word Learning in Adults\n\n\n07/02/2023\nQuality of Neural Data Between Two EEG Capping Approaches"
   },
   {
     "objectID": "currentprojects.html",
     "href": "currentprojects.html",
     "title": "Current Projects",
     "section": "",
-    "text": "Below are brief synopses of current projects that I am working on. There are a multitude of other projects at various stages; however, the following descriptions are from projects which are developed and directed by me and I felt added to the characterization of my science and research interests."
+    "text": "Below are brief synopses of current projects that I am working on. Naturally, there are other projects at various stages; however, the following descriptions are from projects which I felt significantly added to the characterization of my science and research interests."
   },
   {
     "objectID": "currentprojects.html#the-architecture-of-auditory-statistical-learning",
@@ -110,5 +110,12 @@
     "title": "Current Projects",
     "section": "Project Tracker",
     "text": "Project Tracker\n\n\n\nDate of Update\nProject\nNew or Moved to Archive?\n\n\n\n\n07/02/2023\nThe Architecture of Auditory Statistical Learning\nNew\n\n\n07/02/2023\nOptimized Pipeline for Developmental ERPs\nNew"
+  },
+  {
+    "objectID": "archive.html#a-look-at-rhymes-role-in-word-learning-in-adults",
+    "href": "archive.html#a-look-at-rhymes-role-in-word-learning-in-adults",
+    "title": "Archive",
+    "section": "A Look at Rhyme’s Role in Word Learning in Adults",
+    "text": "A Look at Rhyme’s Role in Word Learning in Adults\nPhonological and semantic cues have been shown to significantly bolster word learning by aiding in encoding. Previous behavioral examinations into this exact phenomena through rhyme have demonstrated such an outcome, yet, the speed and depth of rhyme’s aid in word learning is not quite understood. To uncover the true nature of rhyme’s role in word learning, we used EEG and ERP methods to characterize this phenomena. We specifically examined the N400 ERP component and found a significant attenuation across exposure to our paradigm and deduced that rhyme may serve as a more implicit faclitator of encoding. The resultant poster from this project can be found here."
   }
 ]
