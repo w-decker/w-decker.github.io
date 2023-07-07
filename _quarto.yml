@@ -13,17 +13,17 @@ website:
     background-color: "#DCDCDC"
     search: true
     contents:
-      - text: "Home 🏠"
+      - text: "Home"
         file: index.qmd
-      - text: "About me 👤"
+      - text: "About me"
         file: about.qmd
-      - text: "CV 📄"
+      - text: "CV"
         file: cv.qmd
-      - text: "Open Science 📤 🧪"
+      - text: "Open Science"
         file: opensci.qmd
-      - text: "My Open Science 👤 🧪"
+      - text: "My Open Science"
         file: mysci.qmd
-      - section: "Projects 🧬"
+      - section: "Projects"
         contents: 
           - currentprojects.qmd
           - archive.qmd
