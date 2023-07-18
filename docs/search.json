@@ -117,5 +117,33 @@
     "title": "Archive",
     "section": "A Look at Rhyme’s Role in Word Learning in Adults",
     "text": "A Look at Rhyme’s Role in Word Learning in Adults\nPhonological and semantic cues have been shown to significantly bolster word learning by aiding in encoding. Previous behavioral examinations into this exact phenomena through rhyme have demonstrated such an outcome, yet, the speed and depth of rhyme’s aid in word learning is not quite understood. To uncover the true nature of rhyme’s role in word learning, we used EEG and ERP methods to characterize this phenomena. We specifically examined the N400 ERP component and found a significant attenuation across exposure to our paradigm and deduced that rhyme may serve as a more implicit faclitator of encoding. The resultant poster from this project can be found here."
+  },
+  {
+    "objectID": "mylearning.html",
+    "href": "mylearning.html",
+    "title": "Learn some stuff",
+    "section": "",
+    "text": "I have always felt that teaching a concept significantly increases one’s own understanding of that concept. Recently, I have been building learning materials for a myriad of different concepts. Most of them are in progress at the moment but below are some that have some substance to learn from.\nThese topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own."
+  },
+  {
+    "objectID": "mylearning.html#hidden-markov-models",
+    "href": "mylearning.html#hidden-markov-models",
+    "title": "Learn some stuff",
+    "section": "Hidden Markov Models",
+    "text": "Hidden Markov Models\n\n  \n\nWhat is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image below to learn more about HMMs! An effort to make t"
+  },
+  {
+    "objectID": "mylearning.html#building-matlab-functions",
+    "href": "mylearning.html#building-matlab-functions",
+    "title": "Learn some stuff",
+    "section": "Building MATLAB Functions",
+    "text": "Building MATLAB Functions\n\n  \n\nMATLAB is a powerful and widely used tool in cognitive neuroscience and building custom functions is important to optimizing your code. Here, I provide an understanding of building functions ranging in complexities."
+  },
+  {
+    "objectID": "mylearning.html#progress-tracker",
+    "href": "mylearning.html#progress-tracker",
+    "title": "Learn some stuff",
+    "section": "Progress Tracker",
+    "text": "Progress Tracker\n\n\n\nDate Added\nName\nStatus\n\n\n\n\n07/18/2023\nHidden Markov Models\nIn progress\n\n\n07/18/2023\nMATLAB Functions\nIn progress"
   }
 ]

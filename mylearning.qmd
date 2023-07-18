@@ -1,0 +1,39 @@
+---
+title: "Learn some stuff"
+format:
+  html:
+    page-layout: full
+---
+
+## What is this page for?
+
+I have always felt that teaching a concept significantly increases one's own understanding of that concept. Recently, I have been building learning materials for a myriad of different concepts. Most of them are in progress at the moment but below are some that have some substance to learn from.
+
+These topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own.
+
+## Hidden Markov Models
+
+<center>
+  <a href="https://github.com/w-decker/hidden-markov-model">
+    <img src="images/intro_weather.png" alt="HMM" width="120" height="100" class="HMM"/>
+  </a>
+</center>
+
+What is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image below to learn more about HMMs! An effort to make t
+
+## Building MATLAB Functions
+
+<center>
+  <a href="https://github.com/w-decker/matlab-funcs">
+    <img src="images/matlab-funcs.png" alt="matlab-funcs" width="200" height="100" class="matlab-funcs"/>
+  </a>
+</center>
+
+MATLAB is a powerful and widely used tool in cognitive neuroscience and building custom functions is important to optimizing your code. Here, I provide an understanding of building functions ranging in complexities. 
+
+## Progress Tracker
+
+| Date Added | Name | Status |
+| ---- | ------- | --------- |
+| 07/18/2023 | Hidden Markov Models | In progress |
+| 07/18/2023 | MATLAB Functions | In progress |

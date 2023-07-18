@@ -27,6 +27,8 @@ website:
         contents: 
           - currentprojects.qmd
           - archive.qmd
+      - text: "Learning & Resources"
+        file: mylearning.qmd
 
             
 format: 
