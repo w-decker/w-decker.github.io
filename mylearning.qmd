@@ -19,7 +19,7 @@ These topics range from mathematical concepts, to coding and more. Stay tuned fo
   </a>
 </center>
 
-What is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image below to learn more about HMMs! An effort to make t
+What is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image above to learn more about HMMs!
 
 ## Building MATLAB Functions
 

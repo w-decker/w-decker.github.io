@@ -130,7 +130,7 @@
     "href": "mylearning.html#hidden-markov-models",
     "title": "Learn some stuff",
     "section": "Hidden Markov Models",
-    "text": "Hidden Markov Models\n\n  \n\nWhat is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image below to learn more about HMMs! An effort to make t"
+    "text": "Hidden Markov Models\n\n  \n\nWhat is a hidden Markov model (HMM)? How is it used in cognitive neuroscience? Here I provide an understanding of the concepts underlying HMMs, HMMs in general, and relevant literature that makes use of Markovian processes. Click on the image above to learn more about HMMs!"
   },
   {
     "objectID": "mylearning.html#building-matlab-functions",
