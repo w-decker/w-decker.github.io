@@ -45,5 +45,6 @@ MATLAB is a powerful and widely used tool in cognitive neuroscience and building
 
 | Date Added | Name | Status |
 | ---- | ------- | --------- |
+| 08/03/2023 | Brain Stimulation with Izhikevich Model | In progress |
 | 07/18/2023 | Hidden Markov Models | In progress |
-| 07/18/2023 | MATLAB Functions | In progress |
+| 07/18/2023 | MATLAB Functions | Complete |
