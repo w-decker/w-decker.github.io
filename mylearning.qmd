@@ -11,6 +11,16 @@ I have always felt that teaching a concept significantly increases one's own und
 
 These topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own.
 
+## Brain Stimulation with Izhikevich Model
+
+<center>
+  <a href="https://github.com/w-decker/brain-circuit-stim">
+    <img src="images/neuron.png" alt="neuron" width="120" height="100" class="neuron"/>
+  </a>
+</center>
+
+The Izhikevich Model, developed in 2003, allows us to quantify the dynamic nature of neuronal circutry. Here, I provide an introduction to the mathematical models behind neuronal activity and using this to understand brain stimulation.
+
 ## Hidden Markov Models
 
 <center>
