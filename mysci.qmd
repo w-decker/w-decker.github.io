@@ -28,7 +28,7 @@ ORCID or **O**pen **R**esearcher and **C**ontributor **ID** is an important tool
 
 ## GitHub
 
-GitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects. I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. GitHub is also where I house copies of my first/co author presentations in using GitHub Pages. Click [here](https://w-decker.github.io/Presentations/) to check out my presentations. Click on the icon above to access my GitHub.
+GitHub is an incredibly powerful tool for researchers, scientists and more across many fields. The role of GitHub can vary depending on the person. On my GitHub, you will find code used in a variety of projects, but I also use GitHub for writing (more on this soon!). I primarily work with Python, MATLAB and R and the majority of my GitHub consists of these languages. Click on the icon above to access my GitHub.
 
 ---
 
