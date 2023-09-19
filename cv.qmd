@@ -10,4 +10,4 @@ format:
 
 | Filename                  | Last update    |
 |---------------------------|----------------|
-| [CV](files/Decker_CV.pdf) | July 26th, 2023 |
+| [CV](files/CV.pdf) | September 19th, 2023 |
