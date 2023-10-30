@@ -43,4 +43,8 @@ GitHub is an incredibly powerful tool for researchers, scientists and more acros
 
 The Open Science Framework (OSF) is a foundational tool in bolstering open science efforts. It is structured like a file folder system, with "Projects" being the main file, while subcomponents, like "Analysis" or "Code" being the files within. On my OSF, you will find a more detailed account of projects, an interface with GitHub to access code used in the project, and other components that typically make up a project, like the stimuli used and more. Click on the icon above to access my OSF.
 
+## [Presentations](https://w-decker.github.io/Presentations)
+
+First/co-author presentations from conferences/symposia or internal talks are usually uploaded to an offshoot of this site. Click the hyperlink in this section title to access my Presentations. 
+
 ---

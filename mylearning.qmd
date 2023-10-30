@@ -11,6 +11,16 @@ I have always felt that teaching a concept significantly increases one's own und
 
 These topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own.
 
+## Python Object Oriented Programming (POOP)
+
+<center>
+  <a href="https://w-decker.github.io/poop">
+    <img src="images/poop_logo.png" alt="poop" width="120" height="100" class="neuron"/>
+  </a>
+</center>
+
+Object oriented programming (OOP) is an interesting way of coding and is difficult compared to the canonical "procedural" way of programming. Here, I provide only an introductory explanation of OOP with Python. Thus, this learning tool is aptly named "POOP".
+
 ## Brain Stimulation with Izhikevich Model
 
 <center>
@@ -45,6 +55,7 @@ MATLAB is a powerful and widely used tool in cognitive neuroscience and building
 
 | Date Added | Name | Status |
 | ---- | ------- | --------- |
-| 08/03/2023 | Brain Stimulation with Izhikevich Model | In progress |
+| 10/30/2023 | Python Object Oriented Programming | Complete |
+| 08/03/2023 | Brain Stimulation with Izhikevich Model | Complete |
 | 07/18/2023 | Hidden Markov Models | In progress |
 | 07/18/2023 | MATLAB Functions | Complete |

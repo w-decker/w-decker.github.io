@@ -144,7 +144,7 @@
     "href": "mylearning.html#progress-tracker",
     "title": "Learn some stuff",
     "section": "Progress Tracker",
-    "text": "Progress Tracker\n\n\n\nDate Added\nName\nStatus\n\n\n\n\n08/03/2023\nBrain Stimulation with Izhikevich Model\nIn progress\n\n\n07/18/2023\nHidden Markov Models\nIn progress\n\n\n07/18/2023\nMATLAB Functions\nComplete"
+    "text": "Progress Tracker\n\n\n\nDate Added\nName\nStatus\n\n\n\n\n10/30/2023\nPython Object Oriented Programming\nComplete\n\n\n08/03/2023\nBrain Stimulation with Izhikevich Model\nComplete\n\n\n07/18/2023\nHidden Markov Models\nIn progress\n\n\n07/18/2023\nMATLAB Functions\nComplete"
   },
   {
     "objectID": "mylearning.html#brain-stimulation-with-izhikevich-model",
@@ -152,5 +152,19 @@
     "title": "Learn some stuff",
     "section": "Brain Stimulation with Izhikevich Model",
     "text": "Brain Stimulation with Izhikevich Model\n\n  \n\nThe Izhikevich Model, developed in 2003, allows us to quantify the dynamic nature of neuronal circutry. Here, I provide an introduction to the mathematical models behind neuronal activity and using this to understand brain stimulation."
+  },
+  {
+    "objectID": "mylearning.html#python-object-oriented-programming-poop",
+    "href": "mylearning.html#python-object-oriented-programming-poop",
+    "title": "Learn some stuff",
+    "section": "Python Object Oriented Programming (POOP)",
+    "text": "Python Object Oriented Programming (POOP)\n\n  \n\nObject oriented programming (OOP) is an interesting way of coding and is difficult compared to the canonical “procedural” way of programming. Here, I provide only an introductory explanation of OOP with Python. Thus, this learning tool is aptly named “POOP”."
+  },
+  {
+    "objectID": "mysci.html#presentations",
+    "href": "mysci.html#presentations",
+    "title": "My Open Science",
+    "section": "Presentations",
+    "text": "Presentations\nFirst/co-author presentations from conferences/symposia or internal talks are usually uploaded to an offshoot of this site. Click the hyperlink in this section title to access my Presentations."
   }
 ]
