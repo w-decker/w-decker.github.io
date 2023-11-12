@@ -11,11 +11,25 @@ I have always felt that teaching a concept significantly increases one's own und
 
 These topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own.
 
+## Multiple Regression (sub) Components `mrc`
+
+<center>
+  <a href="https://github.com/w-decker/mrc">
+    <img src="images/mrc.png" alt="mrc" width="120" height="100" class="mrc"/>
+  </a>
+</center>
+
+R functions for computing some fun components to multiple regression models. Clicking the plot above will take you to the GitHub repo. To install `mrc` in R, type the following in the R console.
+
+```R
+devtools::install_github("w-decker/mrc")
+```
+
 ## Python Object Oriented Programming (POOP)
 
 <center>
   <a href="https://w-decker.github.io/poop">
-    <img src="images/poop_logo.png" alt="poop" width="120" height="100" class="neuron"/>
+    <img src="images/poop_logo.png" alt="poop" width="120" height="120" class="neuron"/>
   </a>
 </center>
 
@@ -55,6 +69,7 @@ MATLAB is a powerful and widely used tool in cognitive neuroscience and building
 
 | Date Added | Name | Status |
 | ---- | ------- | --------- |
+| 11/12/2023 | Multiple Regression (sub) Components | In progress |
 | 10/30/2023 | Python Object Oriented Programming | Complete |
 | 08/03/2023 | Brain Stimulation with Izhikevich Model | Complete |
 | 07/18/2023 | Hidden Markov Models | In progress |
