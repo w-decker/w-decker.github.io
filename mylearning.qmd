@@ -11,6 +11,25 @@ I have always felt that teaching a concept significantly increases one's own und
 
 These topics range from mathematical concepts, to coding and more. Stay tuned for details on how to contribute. An effort is currently being made to convert these resources into static sites of their own.
 
+On this page, I also provide access to some generic resources that might be helpful in a variety of situations.
+
+## APA Compliant $\LaTeX$ Template
+
+<center>
+  <a href="https://github.com/w-decker/APA-Manuscript-Template">
+    <img src="images/apalatex.png" alt="apalatex" width="120" height="110" class="apalatex"/>
+  </a>
+</center>
+
+$\LaTeX$ and [Overleaf](https://www.overleaf.com/) are great resources for (collaboratively) writing documents with ease. There are a million $\LaTeX$ tutorials on YouTube. I recommend checking out [Dr. Trefor Bazett](https://www.youtube.com/@DrTrefor). Nonetheless, I have provided a $\LaTeX$ template which follows APA criteria. To use it, complete the following steps:
+
+1. Fork the GitHub repository
+2. Create a new project in Overleaf
+3. Select "Import from GitHub"
+4. Select the forked "APA-Manuscript-Template" repo
+
+And now you're ready to write!
+
 ## Multiple Regression (sub) Components `mrc`
 
 <center>
@@ -69,6 +88,7 @@ MATLAB is a powerful and widely used tool in cognitive neuroscience and building
 
 | Date Added | Name | Status |
 | ---- | ------- | --------- |
+| 11/13/2023 | APA Compliant $\LaTeX$ Template | Complete | 
 | 11/12/2023 | Multiple Regression (sub) Components | In progress |
 | 10/30/2023 | Python Object Oriented Programming | Complete |
 | 08/03/2023 | Brain Stimulation with Izhikevich Model | Complete |
