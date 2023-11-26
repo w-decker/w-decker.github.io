@@ -109,7 +109,7 @@
     "href": "currentprojects.html#project-tracker",
     "title": "Current Projects",
     "section": "Project Tracker",
-    "text": "Project Tracker\n\n\n\nDate of Update\nProject\nNew or Moved to Archive?\n\n\n\n\n07/02/2023\nThe Architecture of Auditory Statistical Learning\nNew\n\n\n07/02/2023\nOptimized Pipeline for Developmental ERPs\nNew"
+    "text": "Project Tracker\n\n\n\nDate of Update\nProject\nNew or Moved to Archive?\n\n\n\n\n11/26/2023\nSlice-timing Correction or Temporal Derivatives?\nNew\n\n\n11/26/2023\nReal-time Manipulations of Learning\nNew\n\n\n07/02/2023\nThe Architecture of Auditory Statistical Learning\nNew\n\n\n07/02/2023\nOptimized Pipeline for Developmental ERPs\nNew"
   },
   {
     "objectID": "archive.html#a-look-at-rhymes-role-in-word-learning-in-adults",
@@ -194,5 +194,19 @@
     "title": "Learn some stuff",
     "section": "APA Compliant \\(\\LaTeX\\) Template",
     "text": "APA Compliant \\(\\LaTeX\\) Template\n\n  \n\n\\(\\LaTeX\\) and Overleaf are great resources for (collaboratively) writing documents with ease. There are a million \\(\\LaTeX\\) tutorials on YouTube. I recommend checking out Dr. Trefor Bazett. Nonetheless, I have provided a \\(\\LaTeX\\) template which follows APA criteria. To use it, complete the following steps:\n\nFork the GitHub repository\nCreate a new project in Overleaf\nSelect “Import from GitHub”\nSelect the forked “APA-Manuscript-Template” repo\n\nAnd now you’re ready to write!"
+  },
+  {
+    "objectID": "currentprojects.html#real-time-manipulations-of-learning",
+    "href": "currentprojects.html#real-time-manipulations-of-learning",
+    "title": "Current Projects",
+    "section": "Real-time Manipulations of Learning",
+    "text": "Real-time Manipulations of Learning\nCan learning be inhibited or promoted by tracking neural activity? Using neural entrainment, we plan to ask this very question about statistical learning. What are the subsequent consequences of such manipulations? How does this affect behavioral outcomes? Encoding? Neural profiles?\nKeywords: Neural entrainment, statistical learning, neurofeedback"
+  },
+  {
+    "objectID": "currentprojects.html#slice-timing-correction-or-temporal-derivatives",
+    "href": "currentprojects.html#slice-timing-correction-or-temporal-derivatives",
+    "title": "Current Projects",
+    "section": "Slice-timing Correction or Temporal Derivatives?",
+    "text": "Slice-timing Correction or Temporal Derivatives?\nBecause slices of fMRI volumes are not collected simultaneously, the BOLD response exhibits a temporal lag across slices. This can be partially ameliorated by following multibanding procedures (factor of 3 is usually good) but this does not fix everything. One possible option is to use a slice-timing corrective measure during the preprocessing stage of the fMRI analysis. Another option is to use a temporal derivative as an additional “nuisance” variable in the GLM. But which of the latter two options is better? To test this, we can use a non-nested model comparison at the voxel-wise level by measuring the difference of varience at each voxel across the two models.\nKeywords: fMRI, slice-timing, temporal derivative"
   }
 ]

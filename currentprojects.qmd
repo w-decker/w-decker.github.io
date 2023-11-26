@@ -10,6 +10,18 @@ Below are brief synopses of current projects that I am working on. Naturally, th
 
 ---
 
+## Slice-timing Correction or Temporal Derivatives?
+
+Because slices of fMRI volumes are not collected simultaneously, the BOLD response exhibits a temporal lag across slices. This can be partially ameliorated by following multibanding procedures (factor of 3 is usually good) but this does not fix everything. One possible option is to use a slice-timing corrective measure during the preprocessing stage of the fMRI analysis. Another option is to use a temporal derivative as an additional "nuisance" variable in the GLM. But which of the latter two options is better? To test this, we can use a non-nested model comparison at the voxel-wise level by measuring the difference of varience at each voxel across the two models. 
+
+_Keywords_: fMRI, slice-timing, temporal derivative
+
+## Real-time Manipulations of Learning 
+
+Can learning be inhibited or promoted by tracking neural activity? Using neural entrainment, we plan to ask this very question about statistical learning. What are the subsequent consequences of such manipulations? How does this affect behavioral outcomes? Encoding? Neural profiles?
+
+_Keywords_: Neural entrainment, statistical learning, neurofeedback
+
 ## The Architecture of Auditory Statistical Learning
 
 Statistical learning (SL) is the neuro-cognitive mechanism that the brain employs to identify, parse and extract meaning from continuous input by identifying statistical patterns such as transitional probabilites (TPs). SL can be observed across a variety of cognitive domains and is particularly relevant in the language domain. It has been shown that langauge acquisition occurs through SL. However, previous neuroimaging studies characterize the learning of meaning via auditory SL as static when, rather, learning occurs across the temporal domain, employing various neural regions across space. The focus of this current project is to idetify the spatiotemporal architecure of SL. The timescales at which the brain identifies and processes statistics and along what neural space this occurs is of great interest. 
@@ -34,5 +46,7 @@ _Keywords:_ EEG, ERP, quality metrics, developmental
 
 | Date of Update | Project | New or Moved to Archive? |
 | ---- | ------- | ---------------------------------- |
+| 11/26/2023 | Slice-timing Correction or Temporal Derivatives? | New |
+| 11/26/2023 | Real-time Manipulations of Learning | New |
 | 07/02/2023 | The Architecture of Auditory Statistical Learning | New |
 | 07/02/2023 | Optimized Pipeline for Developmental ERPs | New |
