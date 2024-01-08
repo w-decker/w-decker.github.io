@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am generally interested in how the mind and brain learn about their environment and how this information is then used to navigate the “real world”. This pulls from many different domains within cognitive neuroscience, like language, semantic knowledge, visual neuroscience, attention and memory as well as many scientific fields adjacent to cog-neuro, like mathematics, computer science and linguistics (to name a few). Alltogether, I am interested in using cognitive (behavioral experiments), computational (statistical models), and neuroscientific (ECoG, fMRI, EEG, etc.) tools to uncover the neural bases of learning in the human brain, with a particular emphasis on the infant brain, in which a primary objective exists to parse the novel, continuous, and complex information it constantly is bombarded with. I also have a small interest in the data science end of neuroimaging and want to further refine the tools and techniques currently used to analyze different neuroimaging phenotypes.\nOn top of being a student, I am a Project Coordinator in the Language, Environment and NeuroDevelopment (LEND) Lab under the mentorship of Julie M. Schneider, PhD where I have learned lots about EEG and the signal processing operations behind it and lead a team of other undergraduates in learning and conducting EEG experiments. I am also an honors thesis student in the Representations and Learning (ReLearn) Lab under the mentorship of Christopher Cox, PhD where I have delved deep into MRI, statistical learning and much more.\nI do enjoy my fair share of television; my favorite show is The Simpsons. In my free time, I enjoy listening to my favorite song, “The Night Chicago Died” by Paper Lace, playing the violin (which I have been doing for 10+ years), and learning to code (check out some of my cool coding projects/resourcs on my GitHub or in the Learning & Resources section).\nAt the moment, I am working towards entering a collaborative and open-science driven graduate program in Cognitive Psychology and/or Cognitive Neuroscience with opportunities to enhance my knowledge of language, neuroimaging, statistics and data science as well as receive detailed training in being a scientist of the brain."
+    "text": "Hi! I’m Will Decker and I am an undergraduate honors student at Louisiana State University in Baton Rouge, LA, USA.\nI am generally interested in how the mind and brain learn about their environment and how this information is then used to navigate the “real world”. This pulls from many different domains within cognitive neuroscience, like language, semantic knowledge, visual neuroscience, attention and memory as well as many scientific fields adjacent to cog-neuro, like mathematics, computer science and linguistics (to name a few). Alltogether, I am interested in using cognitive (behavioral experiments), computational (statistical models), and neuroscientific (ECoG, fMRI, EEG, etc.) tools to uncover the neural bases of learning in the human brain, with a particular emphasis on the infant brain, in which a primary objective exists to parse the novel, continuous, and complex information it constantly is bombarded with. I also have a small interest in the data science end of neuroimaging and want to further refine the tools and techniques currently used to analyze different neuroimaging phenotypes.\nOn top of being a student, I am a Project Coordinator in the Language, Environment and NeuroDevelopment (LEND) Lab under the mentorship of Julie M. Schneider, PhD where I have learned lots about EEG and the signal processing operations behind it and lead a team of other undergraduates in learning and conducting EEG experiments. I am also an honors thesis student in the Representations and Learning (ReLearn) Lab under the mentorship of Christopher Cox, PhD where I have delved deep into MRI, statistical learning and much more.\nI do enjoy my fair share of television; my favorite show is The Simpsons. In my free time, I enjoy listening to my favorite song, “The Night Chicago Died” by Paper Lace, playing the violin (which I have been doing for 10+ years), and learning to code (check out some of my cool coding projects/resourcs on my GitHub or in the Learning & Resources section).\nAt the moment, I am working towards entering a collaborative and open-science driven graduate program in Cognitive Psychology and/or Cognitive Neuroscience with opportunities to enhance my knowledge of language, neuroimaging, statistics and data science as well as receive detailed training in being a scientist of the brain."
   },
   {
     "objectID": "mysci.html",
@@ -39,7 +39,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Filename\nLast update\n\n\n\n\nCV\nNovember 1st, 2023"
+    "text": "Filename\nLast update\n\n\n\n\nCV\nJanuary 8th, 2023"
   },
   {
     "objectID": "mysci.html#orcid",
@@ -208,5 +208,12 @@
     "title": "Current Projects",
     "section": "Slice-timing Correction or Temporal Derivatives?",
     "text": "Slice-timing Correction or Temporal Derivatives?\nBecause slices of fMRI volumes are not collected simultaneously, the BOLD response exhibits a temporal lag across slices. This can be partially ameliorated by following multibanding procedures (factor of 3 is usually good) but this does not fix everything. One possible option is to use a slice-timing corrective measure during the preprocessing stage of the fMRI analysis. Another option is to use a temporal derivative as an additional “nuisance” variable in the GLM. But which of the latter two options is better? To test this, we can use a non-nested model comparison at the voxel-wise level by measuring the difference of varience at each voxel across the two models.\nKeywords: fMRI, slice-timing, temporal derivative"
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "CV",
+    "section": "",
+    "text": "Filename\nLast update\n\n\n\n\nCV\nJanuary 8th, 2023"
   }
 ]
