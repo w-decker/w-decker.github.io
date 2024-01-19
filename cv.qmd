@@ -10,4 +10,4 @@ format:
 
 | Filename                  | Last update    |
 |---------------------------|----------------|
-| [CV](files/CV.pdf) | January 8th, 2023 |
+| [CV](files/CV_word.pdf) | January 18th, 2024 |
