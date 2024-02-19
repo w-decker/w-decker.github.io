@@ -13,6 +13,16 @@ These topics range from mathematical concepts, to coding and more. Stay tuned fo
 
 On this page, I also provide access to some generic resources that might be helpful in a variety of situations.
 
+## Static Functional Connectivity
+
+<center>
+  <a href="https://github.com/w-decker/sFC-Demo">
+    <img src="images/fc.png" alt="fc" width="155" height="120" class="fc"/>
+  </a>
+</center>
+
+Execution of static functional connectivity analyses with `nilearn` to scaffold later pipelines. Equipped with custom module, `sfc_demo`, which contains different functionality for easily demonstrating static functional connectivity analyses. Click on the plot to be sent to the GitHub repo.
+
 ## APA Compliant $\LaTeX$ Template
 
 <center>
@@ -88,6 +98,7 @@ MATLAB is a powerful and widely used tool in cognitive neuroscience and building
 
 | Date Added | Name | Status |
 | ---- | ------- | --------- |
+| 02/18/2024 | Static Functional Connectivity | In progress |
 | 11/13/2023 | APA Compliant $\LaTeX$ Template | Complete | 
 | 11/12/2023 | Multiple Regression (sub) Components | In progress |
 | 10/30/2023 | Python Object Oriented Programming | Complete |

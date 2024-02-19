@@ -144,7 +144,7 @@
     "href": "mylearning.html#progress-tracker",
     "title": "Learn some stuff",
     "section": "Progress Tracker",
-    "text": "Progress Tracker\n\n\n\nDate Added\nName\nStatus\n\n\n\n\n11/13/2023\nAPA Compliant \\(\\LaTeX\\) Template\nComplete\n\n\n11/12/2023\nMultiple Regression (sub) Components\nIn progress\n\n\n10/30/2023\nPython Object Oriented Programming\nComplete\n\n\n08/03/2023\nBrain Stimulation with Izhikevich Model\nComplete\n\n\n07/18/2023\nHidden Markov Models\nIn progress\n\n\n07/18/2023\nMATLAB Functions\nComplete"
+    "text": "Progress Tracker\n\n\n\nDate Added\nName\nStatus\n\n\n\n\n02/18/2024\nStatic Functional Connectivity\nIn progress\n\n\n11/13/2023\nAPA Compliant \\(\\LaTeX\\) Template\nComplete\n\n\n11/12/2023\nMultiple Regression (sub) Components\nIn progress\n\n\n10/30/2023\nPython Object Oriented Programming\nComplete\n\n\n08/03/2023\nBrain Stimulation with Izhikevich Model\nComplete\n\n\n07/18/2023\nHidden Markov Models\nIn progress\n\n\n07/18/2023\nMATLAB Functions\nComplete"
   },
   {
     "objectID": "mylearning.html#brain-stimulation-with-izhikevich-model",
@@ -215,5 +215,12 @@
     "title": "CV",
     "section": "",
     "text": "Filename\nLast update\n\n\n\n\nCV\nJanuary 18th, 2024"
+  },
+  {
+    "objectID": "mylearning.html#static-functional-connectivity",
+    "href": "mylearning.html#static-functional-connectivity",
+    "title": "Learn some stuff",
+    "section": "Static Functional Connectivity",
+    "text": "Static Functional Connectivity\n\n  \n\nExecution of static functional connectivity analyses with nilearn to scaffold later pipelines. Equipped with custom module, sfc_demo, which contains different functionality for easily demonstrating static functional connectivity analyses. Click on the plot to be sent to the GitHub repo."
   }
 ]
