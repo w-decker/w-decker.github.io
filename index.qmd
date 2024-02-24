@@ -9,13 +9,14 @@ format:
 
 <center><a><img src="images/wdbrain.png" alt="Decker headshot" width="500" class="headshot"/></a></center>
 
+<center>
 <figure class="text-center">
   <blockquote class="blockquote">
     <p class="lead"> Welcome to my website. Navigate through the pages to learn more about me and my science!</p>
   
   </blockquote>
 </figure>
-
+<center>
 
 
 

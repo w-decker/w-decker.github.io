@@ -21,7 +21,7 @@ I also have a Twitter that I check often! Feel free to DM or follow me by clicki
 ```{=html}
 <center>
 <a href="https://twitter.com/jwilldecker" target="_blank">
-  <i class="bi bi-twitter-x" style="font-size: 50px;"></i>
+  <img src="images/twitter.png" alt="Twitter-X" width=150px>
 </a>
 </center>
 ```
