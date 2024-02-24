@@ -1,18 +1,100 @@
 ---
-title: "About Me"
+Title: "About me"
 format:
   html:
     page-layout: full
----
-
-Hi! I'm Will Decker and I am an undergraduate honors student at Louisiana State University in Baton Rouge, LA, USA.
-
-I am generally interested in how the mind and brain learn about their environment and how this information is then used to navigate the "real world". This pulls from many different domains within cognitive neuroscience, like language, semantic knowledge, visual neuroscience, attention and memory as well as many scientific fields adjacent to cog-neuro, like mathematics, computer science and linguistics (to name a few). Alltogether, I am interested in using cognitive (behavioral experiments), computational (statistical models), and neuroscientific (ECoG, fMRI, EEG, etc.) tools to uncover the neural bases of learning in the human brain, with a particular emphasis on the infant brain, in which a primary objective exists to parse the novel, continuous, and complex information it constantly is bombarded with. I also have a small interest in the data science end of neuroimaging and want to further refine the tools and techniques currently used to analyze different neuroimaging phenotypes. 
-
-On top of being a student, I am a Project Coordinator in the [Language, Environment and NeuroDevelopment (LEND) Lab](https://juschnei.wixsite.com/lendlab) under the mentorship of [Julie M. Schneider, PhD](https://www.lsu.edu/hss/comd/faculty/schneider.php) where I have learned lots about EEG and the signal processing operations behind it and lead a team of other undergraduates in learning and conducting EEG experiments. I am also an honors thesis student in the [Representations and Learning (ReLearn) Lab](https://faculty.lsu.edu/chriscox/index.php) under the mentorship of [Christopher Cox, PhD](https://www.lsu.edu/hss/psychology/faculty/cognitive/cox.php) where I have delved deep into MRI, statistical learning and much more.
-
-I do enjoy my fair share of television; my favorite show is The Simpsons. In my free time, I enjoy listening to my favorite song, "The Night Chicago Died" by Paper Lace, playing the violin (which I have been doing for 10+ years), and learning to code (check out some of my cool coding projects/resourcs on my [GitHub](mysci.qmd#github) or in the [**Learning & Resources**](https://w-decker.github.io/mylearning.html) section).
-
-At the moment, I am working towards entering a collaborative and open-science driven graduate program in Cognitive Psychology and/or Cognitive Neuroscience with opportunities to enhance my knowledge of language, neuroimaging, statistics and data science as well as receive detailed training in being a scientist of the brain.
+    theme: cyborg
 
 ---
+
+# About me!
+
+```{=html}
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Academic</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#profile" aria-selected="false" tabindex="-1" role="tab">Personal</a>
+  </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade show active" id="home" role="tabpanel">
+    <p>I am a fourth-year undergraduate student studying psychology at Louisiana State University (LSU).</p>
+
+    <p>My work takes a computational and neuroscientific (which itself is highly interdisciplinary) approach to investigate language, learning, perception, and memory in minds, brains, and machines.</p>
+
+    <p>I primarily work with <a href="https://www.lsu.edu/hss/psychology/faculty/cognitive/cox.php">Christopher Cox</a> and <a href="https://juschnei.wixsite.com/lendlab/dr-julie-m-schneider">Julie M. Schneider</a> where I have been studying statistical learning and word learning with functional MRI and psychophysiological (e.g., EEG) methods.</p>
+
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel">
+    <p>I enjoy The Simpsons. I have a favorite episode which I watch regurlarly (S8E23; <em>Homer's Enemy</em>).</p>
+
+    <p>In my free time, I play the violin (which I have been doing for 10+ years) and code. I am an avid programmer and have found great utility in this skill (e.g., better logical abilities).</p>
+
+    <p>I also really like food and will eat practically anything. I'm not a big fan of raisins though. </p>
+
+    <p>My partner and I also have a few cats.</p>
+  </div>
+</div>
+
+```
+
+# Pictures
+
+```{=html}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Through Pictures</title>
+  <style>
+    .image-container {
+      text-align: center;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      display: none; /* Hide all images by default */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="images/bauhaus_brain1.png" alt="Bauhaus Brain" width=400px>
+    <img src="images/jango.jpg" alt="Bauhaus Brain" width=400px>
+    <img src="images/jinx.jpg" alt="Bauhaus Brain" width=400px>
+    <img src="images/winston.jpg" alt="Bauhaus Brain" width=400px>
+    <!-- Add more images as needed -->
+  </div>
+  <button type="button" class="btn btn-outline-dark mt-2" onclick="nextImage()">Next</button>
+
+  <script>
+    let currentImageIndex = 0;
+    const images = document.querySelectorAll('.image-container img');
+
+    function showImage(index) {
+      if (index < 0) {
+        index = images.length - 1;
+      } else if (index >= images.length) {
+        index = 0;
+      }
+
+      // Hide all images
+      images.forEach(image => image.style.display = 'none');
+
+      // Show the selected image
+      images[index].style.display = 'block';
+      currentImageIndex = index;
+    }
+
+    function nextImage() {
+      showImage(currentImageIndex + 1);
+    }
+
+    // Show the first image initially
+    showImage(0);
+  </script>
+</body>
+</html>
+```

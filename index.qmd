@@ -1,21 +1,25 @@
 ---
-title: "Home"
+Title: "Home"
 format:
   html:
     page-layout: full
-    theme: dark
----
-
-<center><a><img src="images/Headshot2.jpeg" alt="Decker headshot" width="200" class="headshot"/></a></center>
+    theme: cyborg
 
 ---
 
-Hi! I'm Will Decker and welcome to my website. I am interested in learning, memory and language in the mind and brain! Check out the pages to learn more about me and my science.
+<center><a><img src="images/wdbrain.png" alt="Decker headshot" width="500" class="headshot"/></a></center>
 
-If you would like to contact me, please email jdecke5(at)lsu(dot)edu **or** deckerwill7(at)gmail(dot)com.
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p class="lead"> Welcome to my website. Navigate through the pages to learn more about me and my science!</p>
+  
+  </blockquote>
+</figure>
 
-I have a [twitter](https://twitter.com/jwilldecker) too! <img src="/images/twitter.png"  width="2%" height="1%">
 
----
 
-<center><a><img src="images/brainplot.png" alt="brains" width="200" class="brains"/></a></center>
+
+
+
+
+

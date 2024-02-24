@@ -1,38 +1,33 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   favicon: "/images/wdbrain.png"
   title: "Will Decker"
   page-footer: 
-    left: "2023 ©️ Will Decker - [GNU General Public License v3.0](LICENSE)"
-  sidebar:
-    logo: "/images/wdbrain.png"
-    style: "docked"
-    background-color: "#DCDCDC"
-    search: true
-    contents:
-      - text: "Home"
-        file: index.qmd
-      - text: "About me"
-        file: about.qmd
-      - text: "CV"
-        file: cv.qmd
-      - text: "Open Science"
-        file: opensci.qmd
-      - text: "My Open Science"
-        file: mysci.qmd
-      - section: "Projects"
-        contents: 
-          - currentprojects.qmd
-          - archive.qmd
-      - text: "Learning & Resources"
-        file: mylearning.qmd
+    left: "2024 ©️ Will Decker - [GNU General Public License v3.0](LICENSE)"
+  
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About me
+      - href: cv.qmd
+        text: CV
+      - href: learning.qmd
+        text: Learning and Resources
+      - href: contact.qmd
+        text: Contact
 
-            
-format: 
+format:
   html:
-    theme: darkly
+    theme: cyborg
     css: styles.css
-    toc: true
+    toc: false
+    fontsize: 1.1em
+    linestretch: 1.7
+
+
+

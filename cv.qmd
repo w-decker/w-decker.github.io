@@ -1,13 +1,21 @@
 ---
-title: "CV"
+Title: "Curriculum Vitae"
 format:
   html:
     page-layout: full
-    theme: dark
+    theme: cyborg
+
 ---
 
-## Curriculum Vitae
+# CV
+```{=html}
+<a href="files/CV_word.pdf">
+  <button type="button" class="btn btn-outline-primary">Preview CV</button>
+</a>
 
-| Filename                  | Last update    |
-|---------------------------|----------------|
-| [CV](files/CV_word.pdf) | January 18th, 2024 |
+
+```
+# Last update: 
+```{=html}
+<span class="badge bg-success">January 18th, 2024</span>
+```
