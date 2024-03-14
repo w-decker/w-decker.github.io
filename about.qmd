@@ -20,12 +20,11 @@ format:
 </ul>
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade show active" id="home" role="tabpanel">
-    <p>I am a fourth-year undergraduate student studying psychology at Louisiana State University (LSU).</p>
+    <p>I am an incoming Ph.D. student at Georgia Tech, where I will work primarily with <a href="https://psychology.gatech.edu/people/anna-ivanova">Prof. Anna (Anya) Ivanova</a> in the School of Psychology.</p>
 
-    <p>My work takes a computational and neuroscientific (which itself is highly interdisciplinary) approach to investigate language, learning, perception, and memory in minds, brains, and machines.</p>
+    <p>My work takes a computational and neuroscientific approach (which itself is highly interdisciplinary) to investigate learning, perception, and language in minds, brains, and machines. What/how do neural mechanisms allow us to accrue knowledge of our world? This is a core theme of my research. I work extensively with functional MRI (fMRI), a favorite tool of mine in the expansive "cog-neuro toolkit." </p>
 
-    <p>I primarily work with <a href="https://www.lsu.edu/hss/psychology/faculty/cognitive/cox.php">Christopher Cox</a> and <a href="https://juschnei.wixsite.com/lendlab/dr-julie-m-schneider">Julie M. Schneider</a> where I have been studying statistical learning and word learning with functional MRI and psychophysiological (e.g., EEG) methods.</p>
-
+    <p>Prior to joining Georgia Tech, I will complete my undergraduate degree in Psychology at Louisiana State University (LSU) where I am working with <a href="https://www.lsu.edu/hss/psychology/faculty/cognitive/cox.php">Christopher Cox</a> and <a href="https://juschnei.wixsite.com/lendlab/dr-julie-m-schneider">Julie M. Schneider</a>. While at LSU, I have studied learning and language in adults and kids using fMRI and electroencephalography (EEG).</p>
   </div>
   <div class="tab-pane fade" id="profile" role="tabpanel">
     <p>I enjoy The Simpsons. I have a favorite episode which I watch regurlarly (S8E23; <em>Homer's Enemy</em>).</p>

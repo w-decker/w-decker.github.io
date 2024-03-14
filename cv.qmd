@@ -9,7 +9,7 @@ format:
 
 # CV
 ```{=html}
-<a href="files/CV_word.pdf">
+<a href="files/CV.pdf">
   <button type="button" class="btn btn-outline-primary">Preview CV</button>
 </a>
 
@@ -17,5 +17,5 @@ format:
 ```
 # Last update: 
 ```{=html}
-<span class="badge bg-success">January 18th, 2024</span>
+<span class="badge bg-success">March 14th, 2024</span>
 ```
