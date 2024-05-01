@@ -6,7 +6,7 @@ permalink: /about.html
 
 # About Me!
 
-I am an incoming Ph.D. student at Georgia Tech and the the [Language, Intelligence and Thought (LIT) Lab](https://www.language-intelligence-thought.net/), where I will work with [Prof. Anna (Anya) Ivanova](https://psychology.gatech.edu/people/anna-ivanova) in the School of Psychology.
+I am an incoming Ph.D. student at Georgia Tech and the [Language, Intelligence and Thought (LIT) Lab](https://www.language-intelligence-thought.net/), where I will work with [Prof. Anna (Anya) Ivanova](https://psychology.gatech.edu/people/anna-ivanova) in the School of Psychology.
 
 My work takes a computational and neuroscientific approach (which itself is highly interdisciplinary) to investigate learning, language, and perception in minds, brains, and machines. What/how do neural mechanisms allow us to accrue knowledge of our world? How can neuroscience influence the architecture of artificial neural networks? What does AI tell us about language in the brain? These area few core themes of my research. I work extensively with functional MRI (fMRI), a favorite tool of mine in the expansive "cog-neuro toolkit."
 
