@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X697QFCB5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4X697QFCB5');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="/images/brainfavicon.png">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      .image-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+          max-width: 600px; /* Adjust this width to fit the container or your preference */
+          margin: auto; /* This centers the grid in the div */
+      }
+      .image-grid img {
+          width: 100%;
+          height: auto;
+      }
+      .title-large {
+      font-size: 40px; /* Set the font size as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div style="max-width: 650px; margin: auto">
+      <table style="width:600px">
+      <tr>
+        <td style="width:350px;text-align:center;vertical-align:middle"><h2 class="title-large">Will Decker</h2></td>
+      </tr>
+    </table>
+      <table style="width:600px">
+      <tr>
+      <td style="width:600px;text-align:center;vertical-align:middle"><h2>| <a href="about.html">About Me</a> | <a href="/images/CV.pdf">CV</a> | <a href="resources.html">Resources</a> | <a href="blog.html">Blog</a></h2></td>
+        </tr>
+    </table>
+      <!-- Image Grid -->
+      <div class="image-grid">
+        <img src="/images/brain1.gif" alt="Brain anim">
+        <img src="/images/brain2.gif" alt="Brain anim">
+        <img src="/images/brain3.gif" alt="Brain anim">
+        <img src="/images/brain4.gif" alt="Brain anim">
+        <img src="/images/MARCH2024.png" alt="Headshot">
+        <img src="/images/brain5.gif" alt="Brain anim">
+        <img src="/images/brain6.gif" alt="Brain anim">
+        <img src="/images/brain7.gif" alt="Brain anim">
+        <img src="/images/brain8.gif" alt="Brain anim">
+      </div>
+    </div>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+  </body>
+</html>
