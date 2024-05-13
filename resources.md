@@ -6,6 +6,16 @@ permalink: /resources.html
 
 # Resources
 
+### Readinglist
+<table>
+<tr>
+ <td style="width:40px"><img src="/images/z.png"></td>
+<td style="width:410px">Getting recently added items from a Zotero library. Still in progress; this is a locally executable demo. 
+ <br><a href="https://github.com/w-decker/readinglist">[GitHub <img src="/images/githubicon.png" alt="GitHub" width="15" height="15">]</a>
+</td>
+</tr>
+</table>
+
 ### **`roipy`**
 <table>
 <tr>
