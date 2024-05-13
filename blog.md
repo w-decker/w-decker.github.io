@@ -16,7 +16,7 @@ permalink: /blog.html
 <details>
 <summary style="font-weight: bold; font-size: 18px;">Why?</summary>
 <br>
-<p>I think a one-dimensional answer to the question posed in this section's title is <i>"to make things easier"</i>. Yes, this is true, but what <i>"things"</i> need to be streamlined? Psychological data has increasingly become larger and more complex. Gone are the days when you might compute a t-test by hand for a publishable project; journals are looking for gaudier figures who describe methods and more; and data are quite complex. In this inaugural blog post, I will describe some valuable use cases of computer programming in Psychological Sciences. There's also a lot that I don't touch on. Let me know what you think!</p>
+<p>I think a one-dimensional answer to the question posed in this section's title is <i>"to make things easier"</i>. Yes, this is true, but what <i>"things"</i> need to be streamlined? Psychological data has increasingly become larger and more complex. Gone are the days when you might compute a t-test by hand for a publishable project; journals are looking for gaudier figures; and data are quite complex. In this inaugural blog post, I will describe some valuable use cases of computer programming in Psychological Sciences. There's also a lot that I don't touch on. Let me know what you think!</p>
 </details>
 
 <details>
