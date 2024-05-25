@@ -6,6 +6,16 @@ permalink: /resources.html
 
 # Resources
 
+### **`olsgo`**
+<table>
+<tr>
+<td style="width:410px">Ordinary-least-squares bivariate regression in Go. Lightweight and intuitive modular functions for step-wise approach or one-time function to run regression. Offers simple CSV reading (as map) and some default plotting options (raw data and model). To use, install via <code>go get github.com/w-decker/olsgo@latest</code>. 
+ <br><a href="https://github.com/w-decker/olsgo">[Github <img src="/images/githubicon.png" alt="GitHub" width="15" height="15">]</a>
+</td>
+<td style="width:60px"><img src="/images/gologo.png"></td>
+</tr>
+</table>
+
 ### Readinglist
 <table>
 <tr>
