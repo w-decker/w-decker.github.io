@@ -6,6 +6,16 @@ permalink: /resources.html
 
 # Resources
 
+### **`asmap`**
+<table>
+<tr>
+ <td style="width:65px"><img src="/images/asmap_logo.png"></td>
+<td style="width:410px">Lightweight method for loading in various filetypes as map in Go. To use, install via <code>go get github.com/w-decker/asmap@latest</code>. 
+ <br><a href="https://github.com/w-decker/asmap">[GitHub <img src="/images/githubicon.png" alt="GitHub" width="15" height="15">]</a>
+</td>
+</tr>
+</table>
+
 ### **`olsgo`**
 <table>
 <tr>
