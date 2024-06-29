@@ -6,6 +6,16 @@ permalink: /resources.html
 
 # Resources
 
+### **`minimalboxplot`**
+<table>
+<tr>
+<td style="width:410px">Create minimal boxplots as described in Tufte (2001) p.125. 
+ <br><a href="https://github.com/w-decker/minimalboxplot">[Github <img src="/images/githubicon.png" alt="GitHub" width="15" height="15">]</a>
+</td>
+<td style="width:80px"><img src="/images/mpb.png"></td>
+</tr>
+</table>
+
 ### **`asmap`**
 <table>
 <tr>
