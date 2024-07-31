@@ -7,7 +7,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-4X697QFCB5');
     </script>
 
@@ -22,49 +21,44 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-      .image-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 10px;
-          max-width: 600px; /* Adjust this width to fit the container or your preference */
-          margin: auto; /* This centers the grid in the div */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
       }
-      .image-grid img {
-          width: 100%;
-          height: auto;
+      .content {
+        text-align: center;
       }
       .title-large {
-      font-size: 40px; /* Set the font size as needed */
+        font-size: 50px; /* Set the font size as needed */
+      }
+      .menu a {
+        margin: 0 10px;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid  #d3d3d3; /* Adjust the color and width as needed */
+        margin: 20px 0;
       }
     </style>
   </head>
   <body>
-    <div style="max-width: 650px; margin: auto">
-      <table style="width:600px">
-      <tr>
-        <td style="width:350px;text-align:center;vertical-align:middle"><h2 class="title-large">Will Decker</h2></td>
-      </tr>
-    </table>
-      <table style="width:600px">
-      <tr>
-      <td style="width:600px;text-align:center;vertical-align:middle"><h2>| <a href="about.html">About Me</a> | <a href="/images/CV.pdf">CV</a> | <a href="resources.html">Resources</a> | <a href="blog.html">Blog</a></h2></td>
-        </tr>
-    </table>
-      <!-- Image Grid -->
-      <div class="image-grid">
-        <img src="/images/brain1.gif" alt="Brain anim">
-        <img src="/images/brain2.gif" alt="Brain anim">
-        <img src="/images/brain3.gif" alt="Brain anim">
-        <img src="/images/brain4.gif" alt="Brain anim">
-        <img src="/images/MARCH2024.png" alt="Headshot">
-        <img src="/images/brain5.gif" alt="Brain anim">
-        <img src="/images/brain6.gif" alt="Brain anim">
-        <img src="/images/brain7.gif" alt="Brain anim">
-        <img src="/images/brain8.gif" alt="Brain anim">
+    <div class="content">
+      <h1 class="title-large">Will Decker</h1>
+      <hr>
+      <div class="menu">
+        <h2>
+          | <a href="about.html">About Me</a> |
+          <a href="/images/CV.pdf">CV</a> |
+          <a href="resources.html">Resources</a> |
+          <a href="blog.html">Blog</a> |
+        </h2>
       </div>
+      <hr>
     </div>
 
     <script src="/assets/js/scale.fix.js"></script>
-
   </body>
 </html>
