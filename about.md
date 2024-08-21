@@ -6,7 +6,7 @@ permalink: /about.html
 
 # About Me!
 
-I am an incoming Ph.D. student at the Georgia Institute of Technology in the [Language, Intelligence and Thought (LIT) Lab](https://www.language-intelligence-thought.net/), where I will work with [Prof. Anna (Anya) Ivanova](https://psychology.gatech.edu/people/anna-ivanova) in the School of Psychology.
+I am a Ph.D. student at the Georgia Institute of Technology in the [Language, Intelligence and Thought (LIT) Lab](https://www.language-intelligence-thought.net/), where I work with [Prof. Anna (Anya) Ivanova](https://psychology.gatech.edu/people/anna-ivanova) in the School of Psychology.
 
 I am interested in language and intelligence in the minds and brains of humans and machines. What/how do neural mechanisms allow us to accrue knowledge of our world? How can neuroscience influence the architecture of artificial neural networks? What can AI tell us about language in the brain? These are a few core themes of my research interests.
 
@@ -14,7 +14,7 @@ Prior to joining Georgia Tech, I completed my undergraduate degree in Psychology
 
 ### Personal 
 
-My favorite TV show is The Simpsons. I have a favorite episode which I watch regurlarly (S8E23; _Homer's Enemy_).
+My favorite TV show is The Simpsons. My favorite episode is S8E23, _Homer's Enemy_.
 
 In my free time, I play the violin (which I have been doing for 10+ years) and code. I am an avid programmer and have found great utility in this skill (e.g., better logical abilities). But I am no expert by any means. I enjoy reading but mostly stick to science-y topics.
 
