@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X697QFCB5"></script>
@@ -29,9 +29,9 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <title>Will Decker</title>
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
     <link rel="shortcut icon" type="image/png" href="/images/brainfavicon.png">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -51,22 +51,27 @@
         <a href="resources.html"><h2 class="center-nav">Resources</h2></a>
         <a href="publications.html"><h2 class="center-nav">Publications</h2></a>
         
-        {% if site.show_downloads %}
-          <ul>
-            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-          </ul>
-        {% endif %}
+        
       </header>
       <section>
 
-      {{ content }}
+      <h1 id="publications">Publications</h1>
+
+<h2 id="2024">2024</h2>
+
+<table>
+<tr>
+<td style="width:410px">Fan, T., <strong>Decker, W.</strong>, Schneider, J. M. 2024. The domain-specific neural basis of auditory statistical learning in 5–7-year-old children. <i>Neurobiology of Language.</i>
+ <br /><a href="https://direct.mit.edu/nol/article/doi/10.1162/nol_a_00156/124180">[Link <img src="/images/link.png" alt="Link" width="20" height="20" />]</a>
+</td>
+</tr>
+</table>
+
 
       </section>
       <footer>
       </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>
