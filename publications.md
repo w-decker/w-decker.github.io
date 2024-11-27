@@ -6,6 +6,16 @@ permalink: /publications.html
 
 # Publications
 
+## Preprints
+
+<table>
+<tr>
+<td style="width:410px">Fan, T., <strong>Decker, W.</strong>, Momsen, J., Haebig, E., Schneider, J. M. 2024. The facilitatory role of rhyme during implicit and explicit word learning. <i>PsyArXiv.</i>
+ <br><a href="https://osf.io/preprints/psyarxiv/ykde9">[Link <img src="/images/link.png" alt="Link" width="20" height="20">]</a>
+</td>
+</tr>
+</table>
+
 ## 2024
 
 <table>
