@@ -4,21 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Will Decker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
     <style type="text/css">
         body {
-            margin: 20px auto;
-            max-width: 650px;
-            line-height: 1.6;
-            font-size: 18px;
-            color: #000;
-            padding: 0 5px;
-            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center; /* center horizontally */
+            align-items: center;     /* center vertically */
+            background-color: #f5f5f5;
+            font-family: 'EB Garamond', serif;
         }
         h1, h2, h3 {
             line-height: 1.2;
         }
         h1, aside {
             text-align: center;
+        }
+        h2 {
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2::after {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: #000;
+            width: 100%;
+            margin-top: 5px;
+        }
+        a {
+            color: #2277cb;
+            text-decoration: underline;
         }
         a:hover {
             font-weight: bold;
@@ -31,40 +53,105 @@
             align-items: center;
         }
         #profile {
-        margin-right: 15px;
-        border-radius: 50%;
+            margin-right: 15px;
+            border-radius: 50%;
         }
-
+        .nav-circles {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .nav-circles .nav-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid black;
+            color: white;
+            font-size: 18px;
+            font-style: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .nav-circles .about {
+            background: radial-gradient(circle, #89c9ff 0%, #005a9c 100%);
+        }
+        .nav-circles .research {
+            background: radial-gradient(circle, #e28fbd 0%, #cc3366 100%);
+        }
+        .nav-circles .contact {
+            background: radial-gradient(circle, #6ca668 0%, #4ad973 100%);
+        }
+        .foldout {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+        }
+        main.centered {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
+    <main class="centered">
     <header>
         <h1>Will Decker</h1>
         <aside><i>Psychology PhD Student at the Georgia Institute of Technology</i></aside>
+        <div class="nav-circles">
+            <div class="nav-circle about" onclick="toggleSection('about-section')">About</div>
+            <div class="nav-circle research" onclick="toggleSection('papers-section')">Papers</div>
+            <div class="nav-circle contact" onclick="toggleSection('contact-section')">Contact</div>
+        </div>
     </header>
 
-    <h2>About</h2>
-    <div class="about-section">
-        <img src="imgs/MARCH2024.png" id="profile" alt="Will Decker" width="210" height="210">
-        <p>I am a first-year PhD student in the <a href="https://www.language-intelligence-thought.net/">Language, Intelligence and Thought (LIT) Lab</a> @ <img src="imgs/gt3.png" alt="GT" width="50" height="30">Georgia Tech where I work with <a href="https://psychology.gatech.edu/people/anna-ivanova"> Professor Anna (Anya) Ivanova</a>. I am interested in language and intelligence in the minds and brains of humans and machines. What/how do neural mechanisms allow us to accrue, store, manipulate and express knowledge of our world? How can neuroscience influence the architecture of artificial neural networks? What can AI tell us about language in the brain? These are a few general themes of my research interests. I also like <a href="https://www.reddit.com/r/TheSimpsons/"><img src="imgs/MrSparkle.png" alt="Mr. Sparkle" width="20" height="25">The Simpsons</a>.
+    <!-- About Section -->
+    <div id="about-section" class="foldout">
+        <h2>About</h2>
+        <div class="about-section">
+            <img id="profile" src="imgs/MARCH2024.png" width="100" height="100" alt="Profile Picture">
+            <p>I am a first-year PhD student in the <a href="https://www.language-intelligence-thought.net/">Language, Intelligence and Thought (LIT) Lab</a> @ <img src="imgs/gt3.png" alt="GT" width="50" height="30">Georgia Tech where I work with <a href="https://psychology.gatech.edu/people/anna-ivanova"> Professor Anna (Anya) Ivanova</a>. I am interested in language and intelligence in the minds and brains of humans and machines. What/how do neural mechanisms allow us to accrue, store, manipulate and express knowledge of our world? How can neuroscience influence the architecture of artificial neural networks? What can AI tell us about language in the brain? These are a few general themes of my research interests. I also like <a href="https://www.reddit.com/r/TheSimpsons/"><img src="imgs/MrSparkle.png" alt="Mr. Sparkle" width="20" height="25">The Simpsons</a>. You can find my CV <a href="imgs/decker_CV_07-2025.pdf">here</a>.
+        </div>
     </div>
 
-    <div>
-        <p>You can find my CV  <a href="imgs/CV.pdf">here</a>.
+    <!-- Papers Section -->
+    <div id="papers-section" class="foldout">
+        <h2>Papers</h2>
+        <ul>
+            <li>Fan, T., <b>Decker, W.</b>, Momsen, J., Haebig, E., Schneider, J. M. 2025. <i>The facilitatory role of rhyme during implicit and explicit word learning.</i> <a href="https://osf.io/preprints/psyarxiv/ykde9">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a>
+            </li>
+            <li>Fan, T., <b>Decker, W.</b>, Schneider, J. M. 2024. <i>The domain-specific neural basis of auditory statistical learning in 5 to 7-year-old children.</i> <a href="https://direct.mit.edu/nol/article/doi/10.1162/nol_a_00156/124180">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a>
+            </li>
+        </ul>
     </div>
 
-    <h2>Publications</h2>
-    <h4> Preprints </h4>
-    <p>Fan, T., <strong>Decker, W.</strong>, Momsen, J., Haebig, E., Schneider, J. M. 2024. The facilitatory role of rhyme during implicit and explicit word learning. <i>PsyArXiv</i>. <a href="https://osf.io/preprints/psyarxiv/ykde9">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a>
-    </td></p>
+    <!-- Contact Section -->
+    <div id="contact-section" class="foldout">
+        <h2>Contact</h2>
+        <p>Email: will.decker @ gatech . edu</p>
+        <p><img src="imgs/bsky.png" alt="Blue Sky Logo" width="20" height="20"> <a href="https://bsky.app/profile/jwilldecker.bsky.social"> @jwilldecker.bsky.social</a></p>
+        <p><img src="imgs/githubicon.png" alt="GitHub Logo" width="20" height="20"> <a href="https://github.com/w-decker"> @w-decker</a></p>
+    </div>
 
-    <h4>2024</h4>
-    <p>Fan, T., <strong>Decker, W.</strong>, Schneider, J. M. 2024. The domain-specific neural basis of auditory statistical learning in 5 to 7-year-old children. <i>Neurobiology of Language</i>. <a href="https://direct.mit.edu/nol/article/doi/10.1162/nol_a_00156/124180">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a></p>
-
-    <hr>
-    <h2>Find me</h2>
-    <p>Email: will.decker @ gatech . edu</p>
-    <p><img src="imgs/bsky.png" alt="Blue Sky Logo" width="20" height="20"> <a href="https://bsky.app/profile/jwilldecker.bsky.social"> @jwilldecker.bsky.social</a> </p>
-    <p><img src="imgs/githubicon.png" alt="GitHub Logo" width="20" height="20"> <a href="https://github.com/w-decker"> @w-decker</a> </p>
+    <script>
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            const isVisible = section.style.display === 'block';
+            document.querySelectorAll('.foldout').forEach(div => div.style.display = 'none');
+            section.style.display = isVisible ? 'none' : 'block';
+        }
+    </script>
+    </main>
 </body>
 </html>
