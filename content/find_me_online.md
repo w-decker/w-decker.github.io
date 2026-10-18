@@ -1,0 +1,5 @@
+- [Substack](https://substack.com/@willdecker) — @willdecker
+- [Google Scholar](https://scholar.google.com/citations?user=HXi2FFYAAAAJ&hl=en) — Publications
+- [Bluesky](https://bsky.app/profile/jwilldecker.bsky.social) — @jwilldecker.bsky.social
+- [GitHub](https://github.com/w-decker) — @w-decker
+- [Email](mailto:will.decker@gatech.edu) — will.decker@gatech.edu

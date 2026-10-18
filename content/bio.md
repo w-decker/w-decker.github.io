@@ -1,0 +1,1 @@
+I’m a Psychology PhD student in the [Language, Intelligence and Thought Lab](https://www.language-intelligence-thought.net/) at Georgia Tech. I’m interested in how humans (and sometimes machines) learn, organize, and use knowledge of the world.

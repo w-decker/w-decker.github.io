@@ -1,157 +1,445 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!-- Generated from content/*.md. Run npm run build after editing Markdown. -->
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Will Decker is a Psychology PhD student at Georgia Tech studying how intelligent systems learn, organize, and use knowledge.">
+    <meta name="theme-color" content="#ffffff">
     <title>Will Decker</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #11110f;
+            --muted: #6b6b64;
+            --paper: #ffffff;
+            --line: #deded9;
+            --white: #fff;
+            --orange: #ff6719;
+        }
 
-    <style type="text/css">
+        * { box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
         body {
             margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center; /* center horizontally */
-            align-items: center;     /* center vertically */
-            background-color: #f5f5f5;
-            font-family: 'EB Garamond', serif;
+            color: var(--ink);
+            background: var(--paper);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
         }
-        h1, h2, h3 {
-            line-height: 1.2;
+
+        a { color: inherit; }
+
+        a:focus-visible {
+            outline: 2px solid var(--ink);
+            outline-offset: 4px;
         }
-        h1, aside {
-            text-align: center;
+
+        .page {
+            width: min(1180px, calc(100% - 48px));
+            margin: 0 auto;
         }
-        h2 {
-            position: relative;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        h2::after {
-            content: "";
-            display: block;
-            height: 2px;
-            background-color: #000;
-            width: 100%;
-            margin-top: 5px;
-        }
-        a {
-            color: #2277cb;
-            text-decoration: underline;
-        }
-        a:hover {
-            font-weight: bold;
-        }
-        img {
-            vertical-align: middle;
-        }
-        .about-section {
-            display: flex;
+
+        .topbar {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: clamp(20px, 4vw, 56px);
             align-items: center;
+            justify-content: space-between;
+            min-height: 88px;
+            border-bottom: 1px solid var(--line);
         }
-        #profile {
-            margin-right: 15px;
-            border-radius: 50%;
-        }
-        .nav-circles {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .nav-circles .nav-circle {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 2px solid black;
-            color: white;
-            font-size: 18px;
-            font-style: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-transform: uppercase;
+
+        .wordmark {
+            font-size: .82rem;
+            font-weight: 600;
+            letter-spacing: .08em;
             text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .topbar-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .topbar-links a {
+            color: var(--muted);
+            font-size: .82rem;
+            text-decoration: none;
+            transition: color 160ms ease;
+        }
+
+        .topbar-links a:hover { color: var(--ink); }
+
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(300px, .75fr);
+            gap: clamp(48px, 8vw, 108px);
+            align-items: center;
+            min-height: calc(100svh - 88px);
+            padding: clamp(54px, 7vw, 96px) 0;
+        }
+
+        h1 {
+            max-width: 7ch;
+            margin: 0;
+            font-size: clamp(4rem, 9vw, 7.7rem);
+            font-weight: 400;
+            letter-spacing: -.075em;
+            line-height: .86;
+        }
+
+        .lede {
+            max-width: 600px;
+            margin: clamp(28px, 4vw, 46px) 0 0;
+            font-size: clamp(1.08rem, 1.8vw, 1.38rem);
+            font-weight: 400;
+            letter-spacing: -.025em;
+            line-height: 1.35;
+        }
+
+        .lede a {
+            text-decoration-thickness: 1px;
+            text-underline-offset: 4px;
+        }
+
+        .markdown-content > :first-child { margin-top: 0; }
+        .markdown-content > :last-child { margin-bottom: 0; }
+        .markdown-content a { text-underline-offset: 3px; }
+        .markdown-content ul,
+        .markdown-content ol { padding-left: 1.25em; }
+
+        .portrait-wrap { position: relative; }
+
+        .portrait {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            object-fit: cover;
+            object-position: 42% center;
+            filter: saturate(.86) contrast(.98);
+        }
+
+        .portrait-caption {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            margin-top: 12px;
+            color: var(--muted);
+            font-size: .72rem;
+            letter-spacing: .04em;
+        }
+
+        .content-section {
+            display: grid;
+            grid-template-columns: .65fr 1.35fr;
+            gap: clamp(42px, 7vw, 92px);
+            padding: clamp(60px, 8vw, 104px) 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .research-section {
+            display: block;
+        }
+
+        .research-summary {
+            display: grid;
+            grid-template-columns: .65fr 1.35fr;
+            gap: clamp(42px, 7vw, 92px);
+            align-items: start;
+            list-style: none;
             cursor: pointer;
         }
-        .nav-circles .about {
-            background: radial-gradient(circle, #89c9ff 0%, #005a9c 100%);
+
+        .research-summary::-webkit-details-marker { display: none; }
+
+        .summary-mark {
+            justify-self: end;
+            color: var(--muted);
+            font-size: 2.1rem;
+            font-weight: 200;
+            line-height: .9;
         }
-        .nav-circles .research {
-            background: radial-gradient(circle, #e28fbd 0%, #cc3366 100%);
+
+        .research-section[open] .summary-mark::before { content: "−"; }
+        .research-section:not([open]) .summary-mark::before { content: "+"; }
+
+        .research-expanded {
+            display: grid;
+            grid-template-columns: .65fr 1.35fr;
+            gap: clamp(42px, 7vw, 92px);
+            margin-top: 36px;
         }
-        .nav-circles .contact {
-            background: radial-gradient(circle, #6ca668 0%, #4ad973 100%);
+
+        .research-copy-wrap {
+            grid-column: 2;
+            border-top: 1px solid var(--ink);
+            border-bottom: 1px solid var(--line);
         }
-        .foldout {
-            display: none;
-            margin: 20px auto 0 auto;
-            padding: 15px;
-            background-color: #ffffff;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            max-width: 600px;
-            width: 100%;
+
+        .research-copy {
+            max-width: 670px;
+            margin: 0;
+            padding: 24px 48px 28px 0;
+            color: var(--muted);
+            font-size: clamp(1rem, 1.5vw, 1.16rem);
+            line-height: 1.55;
         }
-        main.centered {
-            max-width: 800px;
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
+
+        .papers-list {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid var(--ink);
+            list-style: none;
+        }
+
+        .paper {
+            display: grid;
+            grid-template-columns: 62px 1fr auto;
+            gap: 20px;
+            padding: 22px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .paper-year,
+        .paper-authors {
+            color: var(--muted);
+            font-size: .78rem;
+        }
+
+        .paper-title {
+            display: block;
+            margin: 0 0 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.35;
+        }
+
+        .paper-link {
+            align-self: start;
+            color: var(--muted);
+            font-size: .8rem;
+            text-decoration: none;
+        }
+
+        .paper-link:hover { color: var(--ink); }
+
+        .mail-icon {
+            display: grid;
+            width: 36px;
+            height: 36px;
+            place-items: center;
+            border: 1px solid var(--ink);
+            border-radius: 50%;
+            font-size: 1.1rem;
+        }
+
+        h2,
+        .section-heading {
+            display: block;
+            margin: 0;
+            font-size: clamp(2.3rem, 4.4vw, 4.05rem);
+            font-weight: 400;
+            letter-spacing: -.06em;
+            line-height: .95;
+        }
+
+        .link-list { border-top: 1px solid var(--ink); }
+
+        .destination {
+            display: grid;
+            grid-template-columns: 40px 1fr auto;
+            gap: 18px;
+            align-items: center;
+            min-height: 74px;
+            border-bottom: 1px solid var(--line);
+            text-decoration: none;
+            transition: padding 180ms ease, background 180ms ease;
+        }
+
+        .destination:hover {
+            padding: 0 14px;
+            background: #f7f7f5;
+        }
+
+        .destination img {
+            width: 26px;
+            height: 26px;
+            object-fit: contain;
+        }
+
+        .destination-name {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .destination-meta,
+        .arrow {
+            color: var(--muted);
+            font-size: .78rem;
+        }
+
+        .substack-dot {
+            display: grid;
+            width: 28px;
+            height: 28px;
+            place-items: center;
+            border-radius: 50%;
+            color: var(--white);
+            background: var(--orange);
+            font-size: .7rem;
+            font-weight: 700;
+        }
+
+        @media (max-width: 760px) {
+            .page { width: min(100% - 32px, 1180px); }
+            .topbar {
+                grid-template-columns: auto auto;
+                gap: 18px;
+            }
+            .topbar-links { gap: 16px; }
+            .hero {
+                grid-template-columns: 1fr;
+                min-height: auto;
+                gap: 44px;
+            }
+            h1 { font-size: clamp(3.7rem, 21vw, 6.2rem); }
+            .portrait-wrap {
+                width: min(100%, 520px);
+                margin-left: auto;
+            }
+            .portrait { aspect-ratio: 5 / 4; }
+            .content-section { grid-template-columns: 1fr; }
+            .research-summary,
+            .research-expanded { grid-template-columns: 1fr; }
+            .research-expanded { margin-top: 28px; }
+            .research-copy-wrap { grid-column: 1; }
+            .destination { grid-template-columns: 36px 1fr auto; }
+            .destination-meta { display: none; }
+            .paper { grid-template-columns: 50px 1fr auto; }
+        }
+
+        @media (max-width: 460px) {
+            .topbar { min-height: 68px; }
+            .topbar-links { gap: 12px; }
+            .topbar-links a { font-size: .72rem; }
+            .hero { padding-top: 52px; }
+            .paper {
+                grid-template-columns: 1fr auto;
+                gap: 10px 16px;
+            }
+            .paper-year { grid-column: 1 / -1; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition: none !important; }
         }
     </style>
 </head>
 <body>
-    <main class="centered">
-    <header>
-        <h1>Will Decker</h1>
-        <aside><i>Psychology PhD Student at the Georgia Institute of Technology</i></aside>
-        <div class="nav-circles">
-            <div class="nav-circle about" onclick="toggleSection('about-section')">About</div>
-            <div class="nav-circle research" onclick="toggleSection('papers-section')">Papers</div>
-            <div class="nav-circle contact" onclick="toggleSection('contact-section')">Contact</div>
-        </div>
-    </header>
+    <div class="page">
+        <header class="topbar">
+            <a class="wordmark" href="#top">Will Decker</a>
+            <nav class="topbar-links" aria-label="Primary navigation">
+                <a href="#connect">Find me</a>
+                <a href="imgs/CV_10_18_26.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open CV in a new tab">CV ↗</a>
+            </nav>
+        </header>
 
-    <!-- About Section -->
-    <div id="about-section" class="foldout">
-        <h2>About</h2>
-        <div class="about-section">
-            <img id="profile" src="imgs/MARCH2024.png" width="100" height="100" alt="Profile Picture">
-            <p>I am a second-year PhD student in the <a href="https://www.language-intelligence-thought.net/">Language, Intelligence and Thought (LIT) Lab</a> @ <img src="imgs/gt3.png" alt="GT" width="50" height="30">Georgia Tech where I work with <a href="https://psychology.gatech.edu/people/anna-ivanova"> Professor Anna (Anya) Ivanova</a>. I am interested in how intelligent systems learn, organize and use knowledge about the world. I also like <a href="https://www.reddit.com/r/TheSimpsons/"><img src="imgs/MrSparkle.png" alt="Mr. Sparkle" width="20" height="25">The Simpsons</a>. You can find my CV <a href="imgs/decker_CV_07-2025.pdf">here</a>.
-        </div>
+        <main id="top">
+            <section class="hero" aria-labelledby="page-title">
+                <div>
+                    <h1 id="page-title">Will Decker</h1>
+                    <div class="lede markdown-content"><p>I’m a Psychology PhD student in the <a href="https://www.language-intelligence-thought.net/" target="_blank" rel="noopener noreferrer">Language, Intelligence and Thought Lab</a> at Georgia Tech. I’m interested in how humans (and sometimes machines) learn, organize, and use knowledge of the world.</p></div>
+                </div>
+
+                <figure class="portrait-wrap">
+                    <img class="portrait" src="imgs/profile.JPG" alt="Will Decker outdoors beneath a blue sky">
+                    <figcaption class="portrait-caption">
+                        <span>Atlanta, Georgia</span>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <details class="content-section research-section" id="research">
+                <summary class="research-summary">
+                    <span class="section-heading" id="research-title">Research<br>interests</span>
+                    <span class="summary-mark" aria-hidden="true"></span>
+                </summary>
+                <div class="research-expanded">
+                    <div class="research-copy-wrap">
+                        <div class="research-copy markdown-content"><h4>Conceptual reasoning</h4>
+<p>Language, decision making, theory of mind and a myriad of other cognitive processes rely on conceptual, or semantic, knowledge. I use behavioral and neural (fMRI and intracranial recordings) measures and computational modeling to characterize this reasoning process in humans and AI systems.</p>
+<h4>Language and cognition</h4>
+<p>Language interacts with many cognitive systems. To better understand language processing in the human mind and its relationship to other phenomena, I use neural (fMRI and intracranial recording) and computational modeling to study linguistic and non-linguistic representations that carry meaning.</p></div>
+                    </div>
+                </div>
+            </details>
+
+            <section class="content-section" id="papers" aria-labelledby="papers-title">
+                <div>
+                    <h2 id="papers-title">Papers</h2>
+                </div>
+
+                <ol class="papers-list">
+                    <li class="paper">
+                        <span class="paper-year">2025</span>
+                        <div>
+                            <span class="paper-title">The facilitatory role of rhyme during implicit and explicit word learning</span>
+                            <span class="paper-authors">Fan, T., Decker, W., Momsen, J., Haebig, E., &amp; Schneider, J. M.</span>
+                        </div>
+                        <a class="paper-link" href="https://osf.io/preprints/psyarxiv/ykde9" target="_blank" rel="noopener noreferrer" aria-label="Open The facilitatory role of rhyme during implicit and explicit word learning in a new tab">View ↗</a>
+                    </li>
+                    <li class="paper">
+                        <span class="paper-year">2024</span>
+                        <div>
+                            <span class="paper-title">The domain-specific neural basis of auditory statistical learning in 5 to 7-year-old children</span>
+                            <span class="paper-authors">Fan, T., Decker, W., &amp; Schneider, J. M.</span>
+                        </div>
+                        <a class="paper-link" href="https://direct.mit.edu/nol/article/doi/10.1162/nol_a_00156/124180" target="_blank" rel="noopener noreferrer" aria-label="Open The domain-specific neural basis of auditory statistical learning in 5 to 7-year-old children in a new tab">View ↗</a>
+                    </li></ol>
+            </section>
+
+            <section class="content-section" id="connect" aria-labelledby="connect-title">
+                <div>
+                    <h2 id="connect-title">Find me<br>online</h2>
+                </div>
+
+                <div class="link-list">
+                    <a class="destination" href="https://substack.com/@willdecker" target="_blank" rel="noopener noreferrer" aria-label="Substack, opens in a new tab">
+                        <span class="substack-dot" aria-hidden="true">S</span>
+                        <span class="destination-name">Substack</span>
+                        <span><span class="destination-meta">@willdecker</span> <span class="arrow" aria-hidden="true">↗</span></span>
+                    </a>
+                    <a class="destination" href="https://scholar.google.com/citations?user=HXi2FFYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar, opens in a new tab">
+                        <img src="imgs/google-scholar.ico" alt="">
+                        <span class="destination-name">Google Scholar</span>
+                        <span><span class="destination-meta">Publications</span> <span class="arrow" aria-hidden="true">↗</span></span>
+                    </a>
+                    <a class="destination" href="https://bsky.app/profile/jwilldecker.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky, opens in a new tab">
+                        <img src="imgs/bsky.png" alt="">
+                        <span class="destination-name">Bluesky</span>
+                        <span><span class="destination-meta">@jwilldecker.bsky.social</span> <span class="arrow" aria-hidden="true">↗</span></span>
+                    </a>
+                    <a class="destination" href="https://github.com/w-decker" target="_blank" rel="noopener noreferrer" aria-label="GitHub, opens in a new tab">
+                        <img src="imgs/githubicon.png" alt="">
+                        <span class="destination-name">GitHub</span>
+                        <span><span class="destination-meta">@w-decker</span> <span class="arrow" aria-hidden="true">↗</span></span>
+                    </a>
+                    <a class="destination" href="mailto:will.decker@gatech.edu" aria-label="Email">
+                        <span class="mail-icon" aria-hidden="true">✉</span>
+                        <span class="destination-name">Email</span>
+                        <span><span class="destination-meta">will.decker@gatech.edu</span></span>
+                    </a></div>
+            </section>
+        </main>
     </div>
-
-    <!-- Papers Section -->
-    <div id="papers-section" class="foldout">
-        <h2>Papers</h2>
-        <ul>
-            <li>Fan, T., <b>Decker, W.</b>, Momsen, J., Haebig, E., Schneider, J. M. 2025. <i>The facilitatory role of rhyme during implicit and explicit word learning.</i> <a href="https://osf.io/preprints/psyarxiv/ykde9">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a>
-            </li>
-            <li>Fan, T., <b>Decker, W.</b>, Schneider, J. M. 2024. <i>The domain-specific neural basis of auditory statistical learning in 5 to 7-year-old children.</i> <a href="https://direct.mit.edu/nol/article/doi/10.1162/nol_a_00156/124180">[Link <img src="imgs/link.png" alt="Link" width="20" height="20">]</a>
-            </li>
-        </ul>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact-section" class="foldout">
-        <h2>Contact</h2>
-        <p>Email: will.decker {at} gatech {dot} edu</p>
-        <p><img src="imgs/bsky.png" alt="Blue Sky Logo" width="20" height="20"> <a href="https://bsky.app/profile/jwilldecker.bsky.social"> @jwilldecker.bsky.social</a></p>
-        <p><img src="imgs/githubicon.png" alt="GitHub Logo" width="20" height="20"> <a href="https://github.com/w-decker"> @w-decker</a></p>
-    </div>
-
-    <script>
-        function toggleSection(id) {
-            const section = document.getElementById(id);
-            const isVisible = section.style.display === 'block';
-            document.querySelectorAll('.foldout').forEach(div => div.style.display = 'none');
-            section.style.display = isVisible ? 'none' : 'block';
-        }
-    </script>
-    </main>
 </body>
 </html>

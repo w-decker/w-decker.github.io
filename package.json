@@ -1,0 +1,12 @@
+{
+  "name": "will-decker-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/build-site.mjs --check"
+  },
+  "dependencies": {
+    "markdown-it": "14.3.3"
+  }
+}
